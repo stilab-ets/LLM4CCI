@@ -1,0 +1,11 @@
+Row,Avg_Perf_all_instances,Std_Perf_all_instances,Probability_of_good,Avg_Perf_selected_instances,Std_Perf_selected_instances,CV_model_accuracy,CV_model_precision,CV_model_recall,BoxConstraint,KernelScale
+DeepSeek,0.648,0.396,0.598,0.925,0.18,100,100,100,15.319,0.004
+GPT,0.661,0.396,0.614,0.93,0.175,99.8,99.7,100,9.567,0.006
+Gemini,0.736,0.374,0.717,0.736,0.374,71.7,71.7,100,0.109,11.223
+Gemma,0.544,0.415,0.471,0.678,0.376,64.2,60.8,67.6,15.994,1.18
+Llama,0.47,0.331,0.32,0.826,0.231,100,100,100,4.668,0.001
+codeLlama,0.395,0.386,0.266,,,73.4,,0,0.109,12.665
+Mixtral,0.431,0.374,0.309,,,69.1,,0,0.109,11.223
+Qwen,0.533,0.405,0.429,0.938,0.165,99.7,100,99.2,15.93,0.024
+Oracle,0.862,0.302,1,,,,,,,
+Selector,0.806,0.341,0.87,0.806,0.341,,87,50.5,,

@@ -1,0 +1,3 @@
+Row,test,total_changed_90,description_length,total_methods,total_token,total_added_lines,dmm_unit_interfacing,TokenDensity,GunningFog,LexicalDiversity
+Z_{1},0.3542,0.3025,0.0821,0.3127,0.3094,0.3811,0.4079,0.3257,0.442,-0.0561
+Z_{2},0.2448,0.3509,-0.6093,0.4796,-0.0915,-0.0697,0.1361,-0.3588,0.3718,0.6

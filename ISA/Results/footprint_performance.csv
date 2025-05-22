@@ -1,0 +1,9 @@
+Row,Area_Good_Normalized,Density_Good_Normalized,Purity_Good,Area_Best_Normalized,Density_Best_Normalized,Purity_Best
+DeepSeek,0.705,1.198,0.655,0.066,0.814,0.735
+GPT,0.802,1.126,0.65,0.032,1.276,0.784
+Gemini,0.812,1.164,0.746,0.042,0.959,0.838
+Gemma,0.416,1.329,0.627,0.021,2.152,0.634
+Llama,0.154,0.974,0.686,0.017,1.167,0.667
+codeLlama,0.153,0.716,0.62,0,0,0
+Mixtral,0.135,0.741,0.714,0.011,1.656,0.75
+Qwen,0.266,1.038,0.661,0.021,1.598,0.774
