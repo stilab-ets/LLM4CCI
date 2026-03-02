@@ -1,0 +1,336 @@
+Id,Categories
+21048, Category: test
+22345," Category: resource, feature, bug
+
+The change updates a binary file (libc.so) which falls under resource category. However, the change also adds a new C library for android-9 platform which falls under feature category. Additionally, the change fixes an issue related to missing library for proper linking of new functions, hence bug category is also applicable."
+21527, Category(ies): test
+14746, Category: refactor
+22313," Category: refactor, bug"
+14395, Category: resource
+18698," Category: resource, test"
+21505," Category(ies): refactor
+
+The change is removing an unneeded -clock unix core option and moving the 'dynticks' clock to the end of the list in qemu-timer.c, which is a refactoring task to improve the code quality and maintainability."
+15404," Category(ies): resource, test"
+15367," Category: refactor, feature"
+23554, Category: test
+11817, Category: bug
+23810," Category: refactor, bug
+
+The change is a bug fix for get\_customized\_country\_code() function that is not working correctly for older kernels. The developer has added a condition to check for the kernel version before executing the function. This is a refactoring of the existing code to handle older kernels better."
+22071," Category: resource, compile
+
+The change is made to define __ANDROID__ and set the correct CFLAGS variable for the x86 toolchain. This is a resource change as it updates the setup.mk file, which is a nonsource code resource. Additionally, this change can be considered a compile change since it modifies the CFLAGS variable used during compilation."
+23670, Category: resource
+16931, Category: refactor
+15977, Category: resource
+16302, Category: resource
+18726, Category(ies): test
+20238, Category: resource
+11512, Category: refactor
+15690," Category: resource, bug"
+13772," Category: resource, feature
+
+The change adds highmem and framebuffer to the harmony_defconfig file, which suggests it's updating nonsource code resources (resource category). Additionally, it's adding a new feature (framebuffer) to the configuration, so the feature category also applies."
+12770," Category: refactor, resource
+
+The change removes support for parsing WMF AMR tracks from the MP4 file parser, which falls under refactoring. Additionally, the change includes updates to SDK info files, which are non-source code resources, making it also a resource change."
+24098," Category: refactor, bug"
+20854," Category: feature, test"
+16937," Category: resource, merge
+
+The change is a revert of a previous commit, which implies it's a merge change. Additionally, the modified files are related to keymap files and configuration, which falls under the resource category."
+18362," Category: refactor, resource"
+24210," Category(ies): feature, refactor"
+12211," Category: resource, feature
+
+The change is updating nonsource code resources (SDKINFO_LABEL and SDKINFO_DATE definitions) to support some specific mp4 content, which falls under the resource category. Additionally, the change is implementing new features to support specific mp4 content, which falls under the feature category."
+20170, Category: resource
+22675, Category(ies): feature
+18597," Category: refactor, feature
+
+Reasoning: The change is refactoring the existing code to allow setting output mode without changing fb geometry, which is a new feature."
+8657," Category: feature, refactor, resource, test"
+10873," Category: refactor, feature
+
+Reasoning: The change includes refactoring the existing code to better handle noise suppression for fast and standard modes, which is a new feature."
+23611," Category: refactor, bug"
+12479," Category: bug, test, resource, refactor"
+19496," Category: refactor, resource"
+22348," Category: refactor, merge
+
+The change is reverting a previous commit (776bd3e46c2fb5c003ecec4fee99f01943876644) that removed a workaround for build conflicts when moving emulator-specific modules. This indicates that the previous change caused issues, so it's being reverted to maintain compatibility with internal branches. The primary focus is to restore the previous state, making it a merge/refactor category."
+13540," Category: resource, test
+
+This change is updating the help text and the implementation of the `adb pull` command to allow pulling files without specifying a local directory. The change includes a test to ensure the new functionality works correctly. However, the primary goal of this change is to update the resource (help text) and add a new feature (pulling files without specifying a local directory), so I categorized it as resource and feature."
+23091," Category: bug, refactor
+
+The change is a bug fix (NPE safeguard) and also involves refactoring the existing code by adding a null check and returning early if the condition is met."
+15742," Category(ies): refactor, bug"
+19277," Category(ies): resource, refactor"
+16299," Category: bug, feature
+
+Reasoning: This change is primarily addressing a bug where CP1"
+22639," Category: bug, resource
+
+The change is made to fix a bug related to the dns proxy protocol in the gethostbyaddr code. It updates the code to expect a string address from inet_ntop, instead of raw bytes. This is a bug fix and also updates the resource (nonsource code) to use inet_ntop for proper address handling."
+15975, Category: refactor
+12353," Category: resource, bug"
+21414, Category: resource
+21660," Category(ies): merge, refactor
+
+The change is a merge from the master branch and updates the required Eclipse version to 3.5 in the feature files, which falls under the refactor category."
+8697, Category: refactor
+17542," Category: feature, resource"
+21685," Category: refactor, feature"
+31451, Category: resource
+8313," Category(ies): bug, resource
+
+This change is a bug fix (fixing the ""make modules"" script bug under Mac OS X) and also updates the nonsource code resource (the script file)."
+22491, Category: resource
+15079, Category: refactor
+20956, Category: test
+22039, Category: bug
+20848, Category: test
+20563," Category(ies): resource, refactor
+
+The change moves the SDK Tools and ADT version to 10, which falls under the resource category as it updates nonsource code resources. Additionally, the change is also categorized as refactoring because it modifies the version number in various configuration files without altering the functionality."
+20861," Category: feature, resource"
+20881, Category: resource
+21607," Category: merge, refactor, feature"
+22764, Category: test
+16730,Too Large
+23746, Category(ies): resource
+16850," Category(ies): resource, refactor"
+13604, Category: refactor
+21991, Category: resource
+18879," Category: feature, test"
+22228," Category: resource, bug"
+20855," Category: feature, refactor
+
+The change adds ETM management registers which is a new feature. It also refactors the existing code by changing the register being read (CSCR_PRSR to ETMMR_PDSR) and updating the corresponding comments."
+16709, Category: resource
+24261," Category: refactor, resource, test"
+16556, Category: resource
+22386," Category(ies): resource, refactor
+
+The change is made to fix the Mac build, which falls under the resource category as it involves updating nonsource code resources or configuration. Additionally, the code is being refactored by replacing #error with #warning, which is a less severe way of indicating unsupported platforms."
+14532, Category: resource
+9449," Category: refactor, bug"
+17210," Category: bug, refactor, resource
+
+The change is primarily a bug fix to ensure that RelativeLayout correctly filters attributes when dropping new elements. It also includes a refactoring of the filtering code to handle different types of values returned by the filter, and updating the XML with the correct attribute values."
+24271, Category(ies): test
+20473," Category: refactor, bug"
+11834," Category: refactor, resource
+
+The change adds new fields to a struct and extracts them into another struct, which are signs of refactoring. Additionally, the change affects header and source files, which are resources."
+11810, Category: resource
+23528, Category: test
+22721," Category: merge, refactor, resource
+
+Reasoning: This change is a merge commit that updates the handling of ANDROID_SDK_HOME in the 'util.c' file. It refactors the existing code by removing redundant checks and simplifying the logic. Additionally, it updates the resource 'util.c' with the new code."
+12712," Category: resource, feature, test
+
+The change adds a new optional logger output string format file (pvlogger_empty_layout.h) which appends nothing to the output string. This is a new feature (feature) for the Android project. The change also updates several configuration and header files (resource) and includes a test implementation for the new logger format (test)."
+18577," Category: refactor, test
+
+Reasoning: The change is primarily focused on refactoring the InstrumentationCtsTestRunner to explicitly report when it has omitted a test due to profile or feature requirements. Additionally, the change sets the initial status of tests to error and modifies the test runner to handle tests that were previously marked as pass but were actually failing. The change also includes several modifications to various test files, indicating that the test functionality is being updated, which is categorized as test."
+14311," Category: refactor, bug"
+24069," Category: refactor, bug"
+14728," Category: bug, refactor
+
+The change is made to fix bugs related to i2c driver behavior on timeout/nack. It includes refactoring code by adding new header files, resetting peripherals, and modifying error handling."
+23372, Category: refactor
+14807," Category: resource, refactor"
+23519," Category: bug, refactor"
+15519," Category: refactor, feature
+
+This change is a refactoring change to add a new feature. The refactoring part involves adding a new variable ""l2x0_disabled"" and related code to check this variable in different files. The feature part is adding an ""nol2x0"" early param to allow easy disabling of the L2 controller from the kernel command line, as well as adding a check for l2x0_disabled in the realview_pbx.c code to avoid setting additional L2x0 registers."
+10979, Category: refactor
+15095," Category: refactor, feature
+
+Reasoning: This change is refactoring the code to introduce a new function `in_interactive_mode()` and updating the `setprompt` function to call this new function. The feature aspect is that the shell prompt will now be emitted even when in non-interactive mode."
+21985," Category: refactor, resource
+
+The change is a revert of a previous commit that moved x86-specific changes to tools.x8"
+15840, Category: feature
+14110," Category(ies): refactor, debug"
+22624, Category: refactor
+20302," Category: resource, feature, test"
+22018," Category: resource, feature"
+11375, Category: refactor
+16457," Category: resource, feature"
+11062," Category: bug, refactor"
+23086, Category: resource
+14538," Category: refactor, resource
+
+The change made by Mike Chan is refactoring the existing code to avoid log spam and switching to printk\_once. This is a refactoring change as the developer is not changing the functionality but improving the existing code. Also, the change includes an update to the non-source code resource, config, or document, hence the category'resource'."
+17480," Category: refactor, feature
+
+Reasoning: This change adds a new'reset' clk op, which is a refactoring of existing code to enable clk reset for non-peripheral clocks, thus adding a new feature."
+22743," Category: resource, refactor
+
+The change is updating nonsource code resources (swtmenubar.jar) and refactoring the launchers for SDK tools to include the new resource in their classpath."
+23845, Category: refactor
+15509, Category: refactor
+16193, Category: resource
+23042, Category: test
+15581," Category: refactor, test"
+19379," Category: refactor, feature
+
+Reasoning: The change is modifying the 'toString()' method and adding a new method 'getLabel()' in both 'ExecResultException.java' and 'ProguardResultException.java' files. This seems to be a refactoring effort to improve the error message display. Additionally, the feature category is assigned because the change also introduces new functionality for displaying output error details in the exception's toString() method."
+9737," Category: resource, feature"
+8662," Category(ies): feature, refactor, resource, test"
+15685," Category: refactor, resource"
+24299," Category: refactor, feature, bug"
+21103, Category: test
+23156," Category: refactor, bug"
+16938," Category: refactor, resource"
+22766, Category: bug
+23797," Category: refactor, bug
+
+The change is a bug fix related to getting the MAC address from platform data in the bcmdhd wireless driver. It also includes refactoring by removing unnecessary code and adding conditional checks."
+20620, Category: refactor
+23512," Category: feature, refactor, test"
+21089, Category: refactor
+23680," Category(ies): refactor, feature"
+21793," Category: refactor, bug"
+14121, Category: refactor
+15584, Category(ies): resource
+13025," Category: resource, refactor, test"
+16107," Category(ies): feature, resource"
+14432," Category(ies): refactor, bug"
+15504," Category: feature, resource
+
+Reasoning: This change adds new files (feature) to simulate UI->Core exchange and updates the Makefile (resource) to include these new files in the build process."
+14393," Category: bug, refactor"
+16806," Category: bug, refactor
+
+The change aims to fix a monkey crash when the new WebView is destroyed, which falls under the 'bug' category. Additionally, the code is being refactored to improve the way the WebViewCore is grabbed, ensuring that the old WebViewCore object can be returned if the Tab is destroyed."
+10852," Category: bug, refactor"
+21658," Category: resource, refactor
+
+The change requires Eclipse 3.5, so it updates the version requirement in the feature.xml files. This is a resource change. Additionally, changing the required version of a plugin is a type of refactoring, as it modifies the existing code to adapt to a new version of a dependency."
+31015," Category: resource, bug"
+24175," Category: resource, test"
+23126," Category: refactor, resource"
+18903," Category: refactor, resource"
+17050," Category: test, resource, merge
+
+This change seems to update resources (the Debug Perspective) and merge branches (based on the Change-Id format). It also tests the behavior of opening hprof files in the Debug Perspective instead of the DDMS perspective."
+14087," Category: refactor, test"
+22859, Category: feature
+14837," Category(ies): resource, feature"
+19306, Category: refactor
+12200," Category: bug, refactor
+
+The change is made to fix a bug related to inserting a frame start code in front of WMV Advanced Profile frame if it's not there. Additionally, the code is refactored by changing the way the buffer is accessed, using a more direct approach to access the buffer data."
+20716, Category: resource
+20965," Category: bug, resource
+```python
+
+The change's title and description indicate that the purpose of the change is to fix bugs in the emulated GSM modem. Additionally, the change updates nonsource code resources, specifically by returning the IP address as part of +CGDCONT=?.
+```"
+12730," Category: resource, bug (based on the title and description, it seems like the change is updating resources and fixing bugs related to mediaframework unit test cases)"
+23268, Category: refactor
+12563," Category: resource, feature
+
+The change is about updating nonsource code resources (sdkinfo labels) and adding new features (WMV1, MP4S compression types) to the video config parser."
+21898," Category: refactor, feature
+
+Reasoning: This change is refactoring the code by adding a new variable `mRotate` to store the rotation state and using it to rotate the image when the refresh button is clicked. It also includes a comment indicating a potential improvement for the `RawImage` class, which suggests a feature update."
+22788," Category: resource, feature
+
+The change adds new and default wifi locale support, which falls under the feature category. It also updates the nonsource code resource (dhd_custom_gpio.c), which is used for configuration, making it a resource category change."
+18975, Category: refactor
+20204," Category(ies): resource, feature"
+22392," Category(ies): refactor, bug"
+17509, Category: refactor
+22457, Category: refactor
+13386,Too Large
+17272, Category: resource
+18911, Category: test
+14431, Category: refactor
+12918," Category: resource, test
+
+The change includes updates to nonsource code resources (SDK info labels) and also modifies the H264 raw support for PVMI MIO file input/output, which implies testing."
+11498," Category: refactor, resource, test
+
+The change includes refactoring of the 2way engine code, specifically updating comments and variable names in multiple header and source files. It also updates the SDK info labels and dates, which are resources. Additionally, the change includes updates to the connect_test.cpp file, which can be categorized as a test update."
+23643," Category: feature, resource, test
+
+The change adds new 1D mapping/unmapping operations for the TILER, which is a feature. It also modifies the kernel methods and includes kmalloc, list_head, and other resource changes. The addition of new functions and modification of existing ones implies testing was also involved."
+12178, Category: resource
+24325," Category: feature, refactor
+
+The change is adding new functionality to handle 'glGet(POINT_SIZE_ARRAY)', which falls under the 'feature' category. Additionally, the code changes involve refactoring existing code to accommodate the new functionality, making'refactor' the other applicable category."
+23267,Too Large
+10797, Category: bug
+21925," Category: refactor, resource
+
+Reasoning: The change allows building the toolchain without target gdb, which is a refactoring of the build process. Additionally, the change introduces a new configuration option (--without-gdb), which is a resource change."
+16616," Category(ies): merge, refactor, resource, test"
+23045," Category(ies): resource, merge"
+20583," Category: refactor, bug (fixing potential issues with 64-bit build)"
+20172, Category(ies): bug
+22202," Category: resource, refactor
+
+The change is made to update the nonsource code resource (Drop-Down list for example projects) and refactor the existing code to handle the strange look on Linux (Project Wizard)."
+22206," Category: test, bug"
+22857," Category(ies): refactor, feature
+
+This change is a refactoring of the rebuild-all-prebuilt.sh script to allow for building x86 prebuilt binaries on a Darwin machine accessed remotely through ssh. It also adds the feature of being able to specify the architecture (--arch=x86) when using the --darwin-ssh option."
+20622," Category: refactor, feature
+
+Reasoning: This change adds a new clock (emc_clk) and enables it while usb is connected, which falls under the feature category. Additionally, the code is being refactored to better handle the clocks, hence the refactor category."
+10505, Category: resource
+16910, Category: bug
+9071, Category: resource
+13924," Category: refactor, feature
+
+Reasoning: This change includes refactoring existing code by adding new flags and modifying the behavior of ACL data packets. It also introduces a new feature, the L2CAP_LM_FLUSHABLE socket option, which allows explicit requests for flushable ACL data packets for a given L2CAP socket."
+14276, Category: feature
+19234, Category(ies): resource
+20260," Category(ies): feature, refactor, resource"
+789," Category: bug, refactor, resource
+
+This change is made to fix a build bug, so it falls under the 'bug' category. It also involves modifying the sdk.atree file to correct the kernel-qemu path, which makes it a'refactor' category. Lastly, the change is made to the sdk.atree file, which is a nonsource code resource, so it is also a'resource' category."
+22567," Category: refactor, resource"
+12132, Category: bug
+17224," Category: refactor, bug"
+17481, Category: feature
+14841," Category(ies): refactor, feature
+
+The change adds support for <uses-library> and <uses-feature> in the manifest parsing, which falls under the feature category. However, it also includes refactoring of existing code to accommodate the new functionality, making it a refactor category as well."
+15990, Category: resource
+18708, Category: test
+20632, Category: test
+20798," Category: feature, test"
+10744," Category: bug, refactor
+
+The change is made to fix a bug in musb_gadget_pullup() by calling stop_activity() when USB is disconnected, and it also refactors the existing if-else condition to improve readability and maintainability."
+20953," Category: refactor, bug"
+14724," Category: feature, resource
+
+The change adds a new DSI clock, which falls under the ""feature"" category. It also modifies the nonsource code resources, configuration, or documents, which falls under the ""resource"" category."
+19579," Category: bug, test"
+19348," Category: resource, test"
+20817, Category: refactor
+21913, Category: test
+20646," Category: resource, test"
+23438," Category: bug, refactor"
+20085," Category(ies): merge, resource"
+1550, Category: resource
+12920, Category: resource
+17232," Category: refactor, bug"
+14479, Category(ies): resource
+21226," Category(ies): feature, resource"
+20218, Category: refactor
+18782," Category: resource, test"
+18621, Category: resource
+12325," Category: resource, feature"
+18989," Category: feature, resource"
+13053, Category: bug
+18560, Category: resource
+20865, Category: resource

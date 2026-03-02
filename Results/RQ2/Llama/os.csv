@@ -1,0 +1,402 @@
+Id,Categories
+1249,"Category(ies): bug, refactor"
+1111,"bug, feature, test, refactor 
+
+(Explanation: The change is primarily a bug fix, as it addresses a performance issue in the test suite. However, it also involves adding a new feature (disabling synchronous mode) and updating the test suite. Additionally, the code refactoring is necessary to implement this change.)"
+6046,"bug, fix"
+655,Too Large
+5812,"bug, refactor
+
+**bug:** Changes are made to fix bugs.
+**refactor:** Changes are made to refactore existing code.
+
+The change is primarily focused on fixing a bug (LP963396) but also includes refactoring code to call the delete method on the ip generator to clear the block of any allocatable_ips."
+7869,"Category(ies): feature, resource"
+1535,"bug, refactor, test
+
+**bug:** Changes are made to fix bugs.
+**refactor:** Changes are made to refactore existing code.
+**test:** Changes are made to add new or update existing features."
+5528,"bug, refactor, resource"
+508,"bug, refactor, test"
+943,"bug, resource"
+6305,"bug, feature"
+4695,"Category(ies): feature, test"
+7214,"bug, refactor 
+
+**Explanation:** The change is primarily focused on fixing a bug in the devref docs, but it also involves refactoring the filter_scheduler namespace by removing the distributed_scheduler namespace."
+5899,"bug, refactor"
+2432,"test, refactor"
+4072,"bug, refactor, resource"
+222,"bug, feature, refactor"
+4854,"resource, refactor"
+6333,"bug, feature, refactor, test
+
+**bug:** Fixes LP 973338
+**feature:** Adds new AltManager, AdminManager derived manager classes, Allows Manager to be inited with custom credentials, Adds config.ComputeAdminConfig class and setup
+**refactor:** Updates test_authorization to use AltManager class
+**test:** Updates test_authorization to use AltManager class"
+5158,"bug, resource"
+3951,"bug, fix"
+2446,"Category(ies): feature, refactor"
+6709,"bug, feature, refactor"
+899,"bug, refactor"
+3832,refactor
+3795,refactor
+6847,Too Large
+4093,"bug, refactor, test"
+5050,"bug, feature, resource: bug, feature, resource"
+6736,"refactor, bug, resource"
+4696,"bug, feature, refactor, resource, test: bug, feature, refactor, resource, test"
+244,"Category(ies): refactor, test"
+2089,Category(ies): refactor
+1317,Too Large
+2069,"bug, resource, test: bug"
+2942,"bug, resource, test: The change is primarily to fix a bug (bug 914476), but it also involves updating a resource (ImpLoader) and adding a test (indirectly, by fixing the bug)."
+4119,"bug, deprecate, refactor"
+5458,"bug, feature, resource, test"
+7567,Category(ies): bug
+5692,Category(ies): bug
+6967,"bug, resource"
+4573,"bug, refactor"
+4948,"bug, resource"
+6893,"bug, resource, test: bug, resource, test"
+3971,"bug, feature, resource, test"
+2051,"bug, refactor"
+4298,"bug, deprecate, refactor"
+4106,"Category(ies): feature, refactor"
+4374,"bug, refactor"
+5030,"bug, resource, test: bug, resource, test"
+5193,"resource, doc"
+3638,"bug, resource"
+299,"Category(ies): feature, refactor"
+4982,"bug, resource, test: The change is primarily focused on fixing a bug (945268) by removing duplicate entries in the AUTHORS file, which is a resource, and also involves updating the.mailmap file, which is a resource, and the change also involves testing."
+6386,"bug, refactor, test: bug, refactor, test"
+2922,"Category(ies): feature, refactor, resource"
+1032,"Category(ies): resource, bug"
+4946,"bug, feature, test"
+6480,"bug, fix"
+438,"resource, refactor"
+2292,"bug, feature"
+1888,"Category(ies): feature, resource"
+7415,Category(ies): refactor
+5178,"bug, deprecate, refactor"
+6261,"bug, test, refactor"
+47,Category(ies): refactor
+2705,"Category(ies): feature, test"
+6411,"bug, refactor"
+7172,"bug, refactor"
+2150,"bug, refactor"
+3068,"bug, refactor"
+4955,"feature, refactor, resource"
+7452,"Category(ies): resource, feature"
+2569,"bug, feature"
+1054,Category(ies): resource
+3320,"bug, feature, test"
+3194,"Category(ies): feature, resource"
+2938,"Category(ies): feature, resource"
+288,"Category(ies): refactor, deprecate"
+6244,"Category(ies): feature, resource"
+5882,"bug, deprecate, refactor"
+4985,"bug, doc, test"
+5082,"bug, refactor"
+5491,"bug, test, refactor"
+3429,"bug, refactor"
+6977,"bug, fix"
+3352,"deprecate, refactor"
+1681,resource:
+1655,"Category(ies): refactor, resource"
+4756,"bug, refactor"
+4903,"Category(ies): feature, refactor"
+4584,"Category(ies): feature, test"
+5113,"bug, test"
+7164,"bug, feature"
+6990,"Category(ies): feature, deprecate"
+418,Category(ies): resource
+7332,"bug, feature, refactor"
+5988,"bug, feature, resource"
+6670,"bug, refactor"
+532,"Category(ies): feature, resource"
+3200,"Category(ies): feature, bug, refactor"
+6978,Category(ies): refactor
+1597,"bug, refactor, test"
+4858,"bug, feature, refactor"
+2185,"bug, refactor, test"
+708,"bug, refactor, resource 
+
+Category(ies): bug, refactor, resource"
+5419,"Category(ies): feature, resource"
+7414,"bug, refactor, test
+
+**bug:** Changes are made to fix bugs.
+**refactor:** Changes are made to refactore existing code.
+**test:** Changes are made to add new or update existing features."
+6940,"bug, revert"
+1356,Category(ies): resource
+5688,"bug, resource"
+7342,"Category(ies): feature, refactor"
+2297,"Category(ies): bug, test"
+1449,Category(ies): refactor
+6242,"bug, fix"
+811,"Category(ies): feature, resource"
+3597,"bug, feature"
+3119,"bug, resource"
+7360,Category(ies): resource
+5590,"bug, feature, test"
+5769,"bug, feature, refactor 
+
+(Change is primarily a bug fix, but it also introduces a new feature and refactors existing code to support it.)"
+867,"bug, refactor"
+2740,"bug, deprecate, refactor"
+3297,"bug, feature, test"
+2802,"bug, refactor"
+4234,"feature, bug, resource"
+3185,"bug, refactor, test"
+6329,"bug, refactor"
+443,"bug, refactor"
+289,Category(ies): resource
+2384,Category(ies): deprecate
+7005,"bug, feature"
+4768,"Category(ies): bug, refactor"
+4768,"Category(ies): bug, refactor"
+5869,"bug, refactor, test"
+2405,Category(ies): feature
+5862,"bug, feature, refactor
+
+**Explanation:**
+
+* The change is primarily focused on fixing a bug (#966242) where the version_control command was useless because it couldn't specify a version.
+* The change also introduces a new feature that allows users to specify a version when running the version_control command.
+* The change refactors the argument handling in glance-manage to more easily handle optional args."
+4603,Category(ies): feature
+1569,"bug, refactor"
+3422,"bug, refactor"
+7451,refactor
+1726,"bug, feature, refactor"
+3926,"bug, feature, resource"
+2020,"bug, fix"
+1386,"bug, feature, refactor"
+3927,"bug, deprecate"
+5808,Category(ies): resource
+6207,"bug, refactor, test"
+3361,"bug, refactor"
+423,"Category(ies): feature, test"
+5094,"bug, refactor"
+3880,"bug, refactor"
+3700,"bug, refactor"
+1149,"bug, feature, refactor, test"
+2080,"Category(ies): refactor, resource"
+6767,Category(ies): refactor
+1516,"bug, refactor
+
+**bug:** The change is made to fix a bug (bug 888711).
+**refactor:** The change involves replacing deprecated code (`assertGreaterEqual`) with a more suitable alternative (`assertTrue`)."
+4709,"bug, refactor"
+683,Category(ies): resource
+1316,"bug, refactor, test"
+1420,Category(ies): resource
+7543,"bug, test"
+3315,"bug, refactor, test"
+424,"bug, refactor"
+4535,"bug, refactor, feature"
+4355,"bug, resource, test:"
+5829,"Category(ies): bug, feature"
+6845,"Category(ies): feature, refactor"
+1286,"Category(ies): bug, refactor"
+2066,"Category(ies): feature, refactor"
+3031,"bug, refactor"
+5811,"bug, refactor"
+692,Category(ies): feature
+2979,"bug, refactor"
+6982,"bug, refactor"
+3903,"Category(ies): bug, refactor"
+923,"Category(ies): feature, refactor, resource, test"
+6685,"Category(ies): feature, resource"
+3265,"bug, deprecate, refactor"
+1218,"bug, feature, resource, test: bug, feature, resource, test"
+1256,Category(ies): feature
+6942,"Category(ies): feature, resource"
+1132,"bug, feature, refactor"
+1628,Too Large
+7775,Category(ies): refactor
+6987,"Category(ies): feature, refactor"
+6817,"Category(ies): feature, resource"
+4639,"bug, feature"
+2981,"bug, refactor"
+5818,"bug, refactor"
+7907,Category(ies): deprecate
+249,Category(ies): feature
+752,"bug, feature, test"
+7175,"bug, feature, test"
+3983,Category(ies): feature
+2152,"Category(ies): feature, refactor"
+1676,"bug, feature, test, refactor: bug, feature, test, refactor"
+4783,"bug, feature"
+5204,"bug, feature, refactor, test"
+490,Category(ies): feature
+4385,"bug, refactor"
+948,Category(ies): feature
+469,"Category(ies): refactor, bug"
+6100,"bug, test"
+1907,Category(ies): refactor
+3792,"bug, test"
+3660,"bug, refactor"
+4607,Category(ies): deprecate
+4607,Category(ies): deprecate
+6196,"bug, test"
+4473,"bug, refactor"
+1110,"bug, deprecate, resource: The change removes outdated contributor doc build information from project README files."
+95,"bug, test"
+4987,"bug, resource"
+3506,Category(ies): feature
+6045,Category(ies): feature
+3299,"bug, feature, refactor
+
+**bug:** The change fixes bug 918226.
+**feature:** The change adds a new filter, KillFilter, to restrict kill commands run as root.
+**refactor:** The change includes refactoring of existing code to accommodate the new filter."
+6012,"bug, feature"
+6124,"bug, refactor, test"
+5385,"bug, feature, resource"
+5695,"bug, resource, test"
+4646,"bug, feature, refactor, test
+
+**bug:** Changes are made to fix bugs.
+**feature:** Changes are made to implement new or update existing features.
+**refactor:** Changes are made to refactore existing code.
+**test:** Changes are made to add new or update existing features."
+6423,"bug, refactor"
+3323,"bug, refactor"
+1593,"bug, feature, refactor 
+
+**Note:** The primary goal of the change is to implement a new feature (schedule_prep_resize()) and fix bugs related to the current host of an instance being excluded for resizes. The change also refactors existing code to accommodate the new feature."
+7219,"bug, refactor"
+445,"bug, refactor"
+6968,"bug, refactor"
+1830,"bug, refactor"
+2273,"bug, fix"
+7096,"bug, test"
+7371,"bug, refactor"
+5657,"bug, refactor"
+6034,"bug, refactor"
+6128,"bug, refactor"
+7334,Category(ies): resource
+7529,Category(ies): deprecate
+2729,"bug, refactor, resource 
+
+Note: The primary goal of the change is to fix a bug (#910763) by removing type comparisons using the ""types"" module and replacing them with isinstance() as per PEP8. This change also refactors the code to adhere to the PEP8 guidelines. Additionally, the change involves updating documentation and configuration files, which can be categorized as resource changes."
+3086,"bug, refactor"
+2513,"bug, refactor"
+985,"Category(ies): feature, refactor"
+5300,"bug, feature, refactor"
+7382,"bug, fix_bug"
+6452,"bug, feature, refactor"
+1820,"Category(ies): refactor, resource"
+3135,"Category(ies): feature, refactor"
+6492,Category(ies): refactor
+241,"Category(ies): refactor, resource"
+5788,"bug, feature, test
+bug, feature, test
+bug, feature, test
+bug, feature, test
+bug, feature, test
+bug, feature, test"
+319,"Category(ies): feature, resource"
+6122,"bug, feature"
+2674,"Category(ies): refactor, resource"
+1988,"bug, refactor, resource"
+6062,"bug, resource"
+101,"feature, refactor"
+6047,"Category(ies): refactor, resource"
+1131,"bug, feature, resource: bug, feature, resource"
+4518,"bug, refactor"
+2960,"bug, resource, test"
+2299,"bug, test"
+6887,"bug, refactor"
+1952,"bug, refactor"
+1055,Category(ies): resource
+2074,"bug, refactor"
+6917,refactor
+5150,Category(ies): refactor
+5819,"bug, refactor"
+6834,"bug, refactor"
+5250,"bug, refactor"
+5421,Category(ies): deprecate
+4255,Category(ies): feature
+729,"bug, refactor"
+6503,"bug, refactor"
+6561,"bug, refactor"
+3564,Category(ies): refactor
+4120,"bug, refactor"
+6867,"bug, refactor"
+7699,"bug, refactor"
+7629,"bug, refactor"
+4757,"Category(ies): feature, resource"
+2093,"bug, fix"
+340,"bug, refactor, resource: The change is primarily a bug fix (lp:772397) but also involves refactoring the logging code to use WatchedFileHandler and updating the test case to handle log rotation. Additionally, it involves updating the documentation (Authors file)."
+2451,"bug, refactor"
+5894,"Category(ies): refactor, resource"
+3915,"bug, refactor"
+4307,"bug, resource"
+5817,"bug, refactor"
+2278,"bug, refactor"
+2332,Category(ies): resource
+3331,"Category(ies): feature, refactor"
+6571,"bug, resource, test"
+6537,"bug, refactor"
+5192,"bug, feature, test: The change enables a new option to skip integration tests, which is a feature, and also fixes a bug (948495), and involves updating the test script, which is a test."
+7532,"bug, test"
+903,"bug, refactor"
+3382,"bug, refactor"
+4449,"bug, test, refactor"
+7187,"bug, refactor"
+5765,Category(ies): resource
+5332,"Category(ies): bug, refactor"
+2956,"bug, feature, refactor"
+5534,"bug, version bump"
+3901,"bug, refactor"
+2397,"bug, refactor"
+3090,"bug, refactor"
+7086,"bug, feature"
+2992,"bug, refactor"
+3368,"feature, resource, test"
+5928,"bug, feature, refactor, resource, test"
+711,bug
+7879,"bug, refactor"
+3863,"Category(ies): feature, refactor"
+7147,"bug, fix"
+5536,"bug, feature, test"
+3592,"bug, refactor"
+2239,"resource, refactor"
+3304,"bug, deprecate, refactor"
+1992,"bug, feature"
+6465,"bug, feature, resource, test: bug, feature, resource, test"
+5944,"bug, refactor"
+330,"bug, refactor"
+3838,"Category(ies): feature, refactor"
+203,"bug, deprecate, refactor"
+6961,"bug, feature, refactor, resource"
+5701,Category(ies): feature
+1763,"bug, resource"
+7189,"bug, refactor"
+3451,"bug, refactor"
+709,"bug, refactor"
+840,"Category(ies): feature, deprecate"
+4796,"feature, refactor"
+5743,"bug, refactor"
+6383,"Category(ies): feature, resource"
+6880,"Category(ies): feature, resource"
+4667,"bug, refactor"
+127,"Category(ies): feature, refactor, test"
+5468,"bug, feature, resource"
+3004,"Category(ies): refactor, bug"
+7464,"bug, feature, test"
+1059,resource
+7217,"resource, refactor, deprecate"
+5308,"bug, refactor"
+7240,"Category(ies): feature, resource"
+621,"Category(ies): feature, refactor"
+3547,"Category(ies): feature, test"
+7779,Category(ies): refactor
+3020,"Category(ies): feature, refactor"
+1660,"bug, refactor, test"

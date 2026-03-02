@@ -1,0 +1,225 @@
+Id,Categories
+21048,Category(ies): test
+22345,"bug, feature"
+21527,"Category(ies): test, bug"
+14746,"Category(ies): refactor, bug"
+22313,"bug, refactor, resource"
+14395,Category(ies): refactor
+18698,Category(ies): bug
+21505,"bug, refactor"
+15404,"Category(ies): feature, resource"
+15367,"Category(ies): feature, refactor"
+23554,"bug, test"
+11817,"bug, fix"
+23810,"bug, refactor"
+22071,Category(ies): feature
+23670,"Category(ies): refactor, resource"
+16931,"Category(ies): feature, refactor"
+15977,"bug, refactor"
+16302,"bug, refactor"
+18726,Category(ies): bug
+20238,"bug, refactor"
+11512,deprecate
+15690,"bug, refactor"
+13772,Category(ies): feature
+12770,"bug, deprecate, refactor"
+24098,"bug, refactor"
+20854,"Category(ies): feature, refactor"
+16937,"bug, revert"
+18362,"Category(ies): deprecate, refactor"
+24210,"Category(ies): feature, refactor"
+12211,"feature, refactor"
+20170,Category(ies): refactor
+22675,"feature, refactor, resource"
+18597,Category(ies): feature
+8657,Category(ies): feature
+10873,"bug, refactor"
+23611,"bug, refactor"
+12479,"bug, test"
+19496,"Category(ies): refactor, bug"
+22348,"bug, revert, resource 
+
+Explanation: The change is a revert of a previous commit, which means it's undoing a change that was made earlier. The revert is being done to avoid breaking internal branches, which suggests that the original change had a bug or was not properly tested. The change also involves modifying Makefiles, which are resource files used in the build process."
+13540,"feature, refactor"
+23091,"bug, refactor"
+15742,Category(ies): refactor
+19277,Category(ies): feature
+16299,Category(ies): feature
+22639,"bug, refactor"
+15975,Category(ies): refactor
+12353,"bug, refactor"
+21414,Category(ies): resource
+21660,"Category(ies): merge, resource"
+8697,"bug, refactor"
+17542,"Category(ies): feature, refactor, resource"
+21685,"Category(ies): feature, refactor, resource"
+31451,"bug, deprecate"
+8313,"bug, refactor"
+22491,"bug, resource"
+15079,"bug, refactor"
+20956,"Category(ies): feature, test"
+22039,"Category(ies): bug, refactor"
+20848,"bug, test"
+20563,"Category(ies): feature, resource"
+20861,Category(ies): feature
+20881,Category(ies): feature
+21607,"Category(ies): feature, resource"
+22764,"Category(ies): test, feature"
+16730,Category(ies): feature
+23746,"resource, refactor"
+16850,"Category(ies): bug, refactor"
+13604,Category(ies): refactor
+21991,merge
+18879,"feature, refactor, resource"
+22228,"bug, refactor"
+20855,Category(ies): feature
+16709,Category(ies): feature
+24261,"Category(ies): feature, refactor"
+16556,Category(ies): resource
+22386,"bug, refactor"
+14532,"Category(ies): refactor, resource"
+9449,"bug, refactor"
+17210,"bug, refactor"
+24271,"bug, test"
+20473,"Category(ies): refactor, feature"
+11834,"Category(ies): feature, refactor"
+11810,"bug, refactor"
+23528,"Category(ies): bug, refactor"
+22721,"Category(ies): merge, bug"
+12712,"Category(ies): feature, refactor"
+18577,"Category(ies): bug, refactor"
+14311,"bug, refactor"
+24069,"bug, refactor, resource: bug, refactor, resource"
+14728,"bug, refactor"
+23372,"bug, refactor"
+14807,"Category(ies): refactor, deprecate"
+23519,"bug, refactor"
+15519,"Category(ies): feature, refactor"
+10979,"bug, refactor"
+15095,"bug, feature"
+21985,"bug, revert"
+15840,Category(ies): feature
+14110,Category(ies): feature
+22624,"bug, refactor"
+20302,"Category(ies): feature, bug"
+22018,Category(ies): feature
+11375,"bug, deprecate"
+16457,"Category(ies): feature, refactor, resource, test"
+11062,"bug, deprecate, refactor"
+23086,"Category(ies): merge, bug"
+14538,"bug, refactor"
+17480,"Category(ies): feature, refactor"
+22743,"bug, refactor, resource:"
+23845,"bug, refactor"
+15509,"bug, refactor"
+16193,"bug, refactor"
+23042,"Category(ies): bug, test"
+15581,"bug, feature"
+19379,"bug, refactor"
+9737,Category(ies): feature
+8662,"feature, refactor, resource"
+15685,"Category(ies): feature, refactor"
+24299,"bug, feature, refactor"
+21103,"bug, test"
+23156,"bug, refactor"
+16938,"Category(ies): feature, refactor"
+22766,"bug, refactor"
+23797,"bug, refactor"
+20620,"Category(ies): refactor, bug"
+23512,Category(ies): feature
+21089,Category(ies): refactor
+23680,"Category(ies): feature, bug, refactor"
+21793,"bug, refactor"
+14121,"bug, refactor"
+15584,"bug, feature, resource, refactor, test"
+13025,"bug, refactor"
+16107,Category(ies): feature
+14432,"Category(ies): feature, bug"
+15504,"Category(ies): feature, refactor"
+14393,"bug, refactor"
+16806,"bug, refactor"
+10852,"bug, refactor"
+21658,Category(ies): feature
+31015,"bug, refactor"
+24175,"Category(ies): feature, refactor"
+23126,"Category(ies): feature, refactor"
+18903,Category(ies): feature
+17050,"Category(ies): feature, refactor"
+14087,"bug, test"
+22859,Category(ies): feature
+14837,"Category(ies): feature, refactor"
+19306,"bug, refactor"
+12200,"bug, refactor"
+20716,"Category(ies): feature, refactor"
+20965,"Category(ies): bug, refactor"
+12730,"bug, test"
+23268,"Category(ies): refactor, feature"
+12563,"feature, refactor, resource"
+21898,Category(ies): feature
+22788,Category(ies): feature
+18975,"bug, refactor"
+20204,"Category(ies): feature, refactor"
+22392,"bug, refactor"
+17509,"bug, refactor"
+22457,"bug, refactor"
+13386,Category(ies): refactor
+17272,"bug, resource"
+18911,"bug, test"
+14431,"bug, refactor"
+12918,"feature, refactor, resource"
+11498,"bug, refactor, resource: 
+The change is primarily focused on fixing a bug where not all settings are saved across sessions in the 2way GUI app. The code changes are made to refactor existing code and update resource files (e.g., SDK info labels and dates)."
+23643,"feature, refactor, resource"
+12178,Category(ies): feature
+24325,"bug, refactor"
+23267,Category(ies): feature
+10797,"bug, fix"
+21925,Category(ies): feature
+16616,"Category(ies): merge, bug, refactor"
+23045,"Category(ies): feature, bug, resource"
+20583,Category(ies): feature
+20172,"bug, refactor"
+22202,"bug, refactor"
+22206,Category(ies): bug
+22857,"bug, refactor"
+20622,Category(ies): feature
+10505,Category(ies): feature
+16910,Category(ies): bug
+9071,"bug, refactor"
+13924,"Category(ies): feature, refactor"
+14276,Category(ies): feature
+19234,Category(ies): resource
+20260,Category(ies): feature
+789,"bug, refactor"
+22567,"Category(ies): refactor, bug"
+12132,"bug, refactor"
+17224,"bug, refactor"
+17481,Category(ies): feature
+14841,"Category(ies): feature, refactor"
+15990,Category(ies): refactor
+18708,"bug, test"
+20632,Category(ies): bug
+20798,"Category(ies): feature, test"
+10744,"bug, refactor"
+20953,"bug, refactor"
+14724,Category(ies): feature
+19579,"bug, test"
+19348,"Category(ies): feature, refactor"
+20817,Category(ies): refactor
+21913,"Category(ies): bug, test"
+20646,Category(ies): feature
+23438,"bug, refactor"
+20085,Category(ies): merge
+1550,refactor
+12920,"bug, refactor"
+17232,"Category(ies): bug, refactor"
+14479,"resource, refactor"
+21226,"Category(ies): feature, resource"
+20218,Category(ies): refactor
+18782,"Category(ies): feature, refactor"
+18621,"Category(ies): feature, resource"
+12325,"feature, refactor, resource"
+18989,"Category(ies): feature, refactor"
+13053,"bug, fix"
+18560,Category(ies): feature
+20865,Category(ies): refactor

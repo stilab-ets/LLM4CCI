@@ -1,0 +1,447 @@
+Id,Gemini,Label,Heuristics
+21048,"test
+",test,Bug;Test;
+22345,"bug, resource 
+",bug;resource,Bug;Resource;
+21527,"bug, test 
+",test;bug,Bug;Resource;Test;
+14746,"refactor
+","bug,refactor",Deprecat;
+22313,"bug
+",bug,Feature;
+14395,"refactor 
+",refactor,Others;
+18698,"bug, test 
+","test,bug",Bug;Test;
+21505,"bug, refactor 
+","bug,refactor",Deprecat;
+15404,"resource
+",resource,Feature;
+15367,"feature
+",feature,Others;
+23554,"test
+",test,Bug;Test;
+11817,"bug
+",bug,Bug;Deprecat;
+23810,"bug
+",bug,Bug;
+22071,"bug, refactor 
+",reource;bug,Bug;Deprecat;Resource;
+23670,"bug, merge 
+","bug,merge",Bug;Resource;
+16931,"Categories: **feature** 
+",feature,Resource;
+15977,"bug 
+",bug,Bug;
+16302,"bug, test 
+",bug;test,Bug;Resource;Test;
+18726,"bug, test 
+","bug,test",Bug;Test;
+20238,"bug, refactor
+","refactor,bug",Bug;Deprecat;
+11512,"refactor,deprecate 
+",deprecat:,Deprecat;
+15690,"bug 
+",bug,Bug;Resource;
+13772,"feature 
+",resource,Resource;
+12770,"bug, refactor 
+","deprecat,bug",Deprecat;
+24098,"bug
+",bug,Bug;
+20854,"feature
+",feature,Feature;
+16937,"bug 
+",bug,Resource;
+18362,"refactor,deprecate
+",deprecat,Deprecat;
+24210,"feature 
+",feature,Feature;
+12211,"Categories: bug, feature 
+","bug,feature",Feature;
+20170,"bug,resource 
+",bug,Bug;
+22675,"feature 
+",feature,Others;
+18597,"feature 
+",feature,Others;
+8657,"feature 
+",feature,Bug;Feature;Resource;Test;
+10873,"**bug,feature** 
+",bug,Others;
+23611,"bug
+",bug,Bug;
+12479,"bug,test 
+",Bug;Test;,Bug;Test;
+19496,"**feature**, **refactor** 
+",deprecat,Deprecat;Test;
+22348,"bug,refactor 
+","bug,refactor",resource
+13540,"feature,test 
+",feature,Others;
+23091,"bug
+",bug,Others;
+15742,"test,bug 
+","test,bug",Bug;Deprecat;Test;
+19277,"test, bug 
+","test,resource,bug",Resource;Test;
+16299,"bug 
+",bug,Bug;
+22639,"bug,
+",bug;,Bug;Feature;
+15975,"refactor 
+",refactor,Resource;
+12353,"bug
+",bug,Bug;Test;
+21414,"resource 
+",resource,Resource;
+21660,"merge 
+",merge;resource,Merge;Resource;
+8697,"bug
+",bug,Others;
+17542,"feature 
+",feature,Deprecat;Resource;
+21685,"**feature** 
+",feature,Feature;
+31451,"bug
+",bug,Bug;Deprecat;Resource;
+8313,"bug 
+",bug,Bug;Resource;
+22491,"bug, resource 
+","bug,resource",Bug;Resource;
+15079,"bug
+",bug,Bug;
+20956,"Categories: test, bug 
+","test,bug",Bug;Resource;Test;
+22039,"bug 
+",bug,Bug;Resource;
+20848,"bug, test 
+","bug,test",Bug;Test;
+20563,"resource 
+",resource,Resource;
+20861,"feature 
+",feature,Deprecat;Resource;
+20881,"feature 
+",resource,Resource;
+21607,"feature 
+",feature,Feature;
+22764,"test 
+",test,Test;
+16730,"feature 
+",feature,Feature;
+23746,"resource 
+",resource,Resource;
+16850,"bug, refactor
+","bug,refactor",Bug;Deprecat;
+13604,"**bug** 
+",bug,Others;
+21991,"feature 
+",feature,Merge;Resource;
+18879,"feature 
+",feature,Feature;Test;
+22228,"bug
+",bug,Bug;Resource;
+20855,"feature 
+",feature,Feature;
+16709,"resource
+",merge;resource,Merge;
+24261,"bug, feature
+","bug,feature",Bug;Deprecat;
+16556,"resource 
+",resource,Resource;
+22386,"bug 
+",bug,Bug;
+14532,"refactor 
+",resource,Resource;
+9449,bug,bug,Bug;Test;
+17210,"bug
+",bug,Bug;Resource;
+24271,"test, bug 
+","test,bug",Bug;Test;
+20473,"bug, refactor
+","bug,refactor",Bug;Refactoring;
+11834,"feature 
+",feature,Feature;
+11810,"bug 
+",bug,Bug;
+23528,"bug, test 
+",test,Others;
+22721,"merge, bug 
+","merge,bug",Merge;
+12712,"feature
+",feature,Feature;
+18577,"bug, test 
+","test,bug",Bug;Test;
+14311,"bug, refactor 
+","bug,refactor",Bug;Deprecat;
+24069,"bug, refactor
+","bug,resource ",Bug;Resource;
+14728,"bug 
+",bug,Bug;
+23372,"bug
+",bug,Feature;
+14807,"refactor, deprecate 
+","refactor, deprecate 
+",Bug;Deprecat;Resource;
+23519,"bug 
+",bug,Bug;Resource;
+15519,"bug,feature 
+","feature,bug",Feature;
+10979,"bug 
+",bug,Others;
+15095,"feature 
+",feature,Others;
+21985,"refactor 
+",deprecat;resource,Resource;
+15840,"feature 
+",feature,Feature;
+14110,"**refactor** 
+",resource,Bug;Resource;
+22624,"bug
+",bug,Others;
+20302,"bug,resource 
+",bug,Feature;
+22018,"feature,test 
+","feature,test 
+",Feature;Test;
+11375,"bug 
+",bug,Deprecat;Resource;
+16457,"feature, test 
+","bug,feature,test",Bug;Test;
+11062,"bug 
+",bug,Bug;Deprecat;
+23086,"bug, merge 
+","bug,merge",Bug;
+14538,"bug, refactor 
+",bug,Others;
+17480,"feature 
+",feature,Feature;
+22743,"bug
+",Bug;Resource;,Bug;Resource;
+23845,"bug
+",bug,Feature;
+15509,"feature,bug 
+",feature,Feature;
+16193,"bug, refactor
+",bug,Bug;Deprecat;
+23042,"bug, test 
+","test,bug",Bug;Test;
+15581,"bug, test 
+",bug;test;,Bug;Deprecat;Test;
+19379,"bug
+",bug,Others;
+9737,"feature
+",feature,Resource;
+8662,"feature 
+",feature;,Bug;Feature;Resource;Test;
+15685,"**feature** 
+",feature,Feature;
+24299,"bug, feature, refactor 
+","bug,featue",Bug;Deprecat;
+21103,"bug, test 
+","bug, test 
+",Bug;Test;
+23156,"bug 
+",bug,Bug;
+16938,"feature, refactor 
+","feature,refactor",Feature;
+22766,"bug 
+",bug,Bug;Feature;Test;
+23797,"bug
+",bug,Bug;
+20620,"refactor 
+",refactor,Deprecat;
+23512,"Categories: feature 
+",Bug;Feature;,Bug;Feature;
+21089,"bug 
+",bug,Deprecat;Resource;
+23680,"bug, feature
+","bug,feature",Bug;
+21793,"bug
+",bug,Bug;Feature;
+14121,"bug
+",bug,Bug;
+15584,"resource
+",resource,Test;
+13025,"bug
+",bug;,Test;
+16107,"feature 
+",feature,Feature;
+14432,"bug, feature, refactor, test 
+","bug,feature,deprecat",Bug;Deprecat;
+15504,"feature 
+",feature;,Feature;
+14393,"bug 
+",bug,Deprecat;
+16806,"bug 
+",bug,Bug;
+10852,"bug
+",bug,Bug;
+21658,"feature 
+",resource,Resource;
+31015,"bug 
+",bug,Bug;
+24175,"**feature** 
+",feature,Bug;Test;
+23126,"bug, feature 
+",feature,Deprecat;
+18903,"refactor 
+",refactor,Feature;
+17050,"**feature** 
+",feature,Bug;
+14087,"bug,test 
+","bug,test 
+",Bug;Test;
+22859,"feature
+",feature,Feature;
+14837,"**feature** 
+",feature,Feature;
+19306,"bug
+",bug,Deprecat;
+12200,"bug
+",bug,Bug;
+20716,"resource
+",resource,Resource;
+20965,"bug, feature 
+","bug,feature",Bug;
+12730,"bug 
+",bug,Test;
+23268,"refactor
+",refactor,Resource;
+12563,"feature 
+",feature,Resource;
+21898,"bug, feature 
+",feature,Others;
+22788,"feature 
+",feature,Feature;
+18975,"bug
+",bug,Others;
+20204,"feature
+",feature,Feature;
+22392,"bug
+",bug,Bug;
+17509,"bug, refactor 
+",bug,Deprecat;
+22457,"bug
+",bug,Bug;
+13386,"refactor
+",refactor,Bug;Deprecat;
+17272,"bug 
+",resource;bug,Bug;Resource;
+18911,"bug, test 
+","test,bug",Bug;Test;
+14431,"bug 
+",Bug;Deprecat;,Bug;Deprecat;
+12918,"feature 
+",feature,Feature;
+11498,"bug, feature 
+",bug,Others;
+23643,"feature
+",feature,Others;
+12178,"feature 
+",resource,Resource;
+24325,"bug 
+",bug,Others;
+23267,"resource
+",resource,Feature;
+10797,"bug
+",bug,Bug;Resource;
+21925,"feature
+",feature,Others;
+16616,"merge, bug 
+","bug,merge",Bug;
+23045,"bug,feature
+","bug,feature",Bug;Deprecat;Resource;
+20583,"bug,feature 
+","bug,resource",Resource;
+20172,"bug 
+",bug,Bug;
+22202,"bug
+",bug,Others;
+22206,"bug, test 
+","bug,test",Bug;Deprecat;Test;
+22857,"bug
+",bug,Bug;
+20622,"feature 
+",feature,Feature;
+10505,"feature 
+",feature,Feature;
+16910,"bug
+",bug,Others;
+9071,"bug, refactor 
+",bug,Bug;
+13924,"feature 
+",feature,Feature;
+14276,"feature 
+",feature,Others;
+19234,"resource 
+",resource,Resource;
+20260,"**feature,deprecate** 
+",feature;deprecat,Feature;
+789,"bug 
+",bug,Bug;Resource;
+22567,"bug
+",deprecat,Deprecat;Resource;
+12132,"bug, feature 
+",bug,Bug;Resource;
+17224,"bug, refactor
+","bug,refactor",Bug;
+17481,"feature 
+",feature,Feature;
+14841,"feature, test 
+","feature,test 
+",Feature;
+15990,"resource 
+",resource,Resource;
+18708,"test,bug 
+","test,bug",Bug;Test;
+20632,"bug
+","test,bug",Bug;Deprecat;Test;
+20798,"test, bug 
+","test,bug",Bug;Feature;Test;
+10744,"bug 
+",bug,Bug;
+20953,"bug
+",bug,Bug;
+14724,"feature 
+",feature,Feature;
+19579,"bug,test 
+","test,bug",Feature;Test;
+19348,"feature, refactor 
+",feature,Feature;
+20817,"refactor
+",refactor,Refactoring;
+21913,"test 
+",test,Test;
+20646,"feature 
+",feature,Feature;
+23438,"bug, feature
+",bug,Bug;
+20085,"bug, merge 
+","bug,merge",Merge;Resource;
+1550,"bug 
+","bug,resource",Resource;
+12920,"bug 
+",bug,Bug;Test;
+17232,"bug 
+",bug,Bug;
+14479,"resource
+",resource,Bug;Resource;
+21226,"feature 
+",feature,Feature;
+20218,"refactor,deprecate 
+","bug,deprecat",Bug;Deprecat;
+18782,"**feature**, **debug** 
+",feature,Bug;
+18621,"resource, bug
+",feature;bug,Feature;
+12325,"feature 
+",feature,Merge;Test;
+18989,"feature
+",feature,Others;
+13053,"bug 
+",bug,Bug;
+18560,"resource
+",resource,Others;
+20865,"**resource** 
+",resource,Resource;

@@ -1,0 +1,356 @@
+Id,Label,heuristics,Gemini
+1249,"bug, test",bug;test,"bug, test"
+1111,"test, bug",deprecat;test,"test, bug"
+6046,bug,bug,bug
+655,merge,bug;deprecat;test,merge
+5812,bug,bug;deprecat,bug
+7869,"feature,resource",bug;feature;resource,"feature,resource"
+1535,"refactor,feature",others,"refactor,feature"
+5528,"resource,bug",bug;resource,"resource,bug"
+508,"bug,test",bug,"bug,test"
+943,resource; bug,bug;resource,resource; bug
+6305,bug,others,bug
+4695,"feature,test",deprecat,"feature,test"
+7214,"resource,bug",bug;resource,"resource,bug"
+5899,bug;feature,bug;resource,"**bug** 
+"
+2432,test,test,"**test** 
+"
+4072,"bug,test",bug,"bug,test"
+222,bug,bug;feature,bug
+4854,resource,resource,resource
+6333,"test,feature,bug",bug;resource;test,"test,feature,bug"
+5158,resource,bug;resource,"bug, resource 
+"
+3951,bug,bug,bug
+2446,"feature,resource ",feature,"feature,resource "
+6709,"bug,feature;test",bug;feature,"bug,feature;test"
+899,"bug, refactor ",deprecat;test,"bug, refactor "
+3832,test,resource,"refactor,test"
+3795,"test,refactor,feature",refactoring,"test,refactor,feature"
+6847,"feature,deprecat",feature;test,"refactor,feature"
+4093,"test,refactor",refactoring;test,"test,refactor"
+5050,resource,deprecat;resource,"resource ,bug"
+6736,"refactor,",refactoring,"refactor,bug"
+4696,"bug, test,feature",bug;resource,"bug, test,feature"
+244,"test,refactor",resource;test,"test,refactor"
+2089,bug,resource;test,"bug,refactor"
+1317,"feature,bug,resource ",bug;feature,"feature,bug,resource, refactor"
+2069,"resource,bug",bug;resource,"resource,bug"
+2942,bug,bug,bug
+4119,bug,bug;deprecat,"bug,refactor"
+5458,"feature,resource",bug;deprecat;resource;test,"feature,resource"
+7567,bug,bug;feature,bug
+5692,"bug, resource",bug;resource,"bug, resource"
+6967,"bug,resource",bug;resource,"bug,resource"
+4573,bug; test,refactoring;test,bug; test
+4948,bug,bug;resource,bug
+6893,"bug,resource",bug;resource,resource
+3971,"bug,feature,test",bug,"bug,feature"
+2051,refactor,deprecat,refactor
+4298,"bug,resource",bug;deprecat;resource,"bug,resource"
+4106,test,test,test
+4374,"bug,resource,refactor",bug;resource,"bug,resource,refactor"
+5030,"bug,resource",bug;resource,"bug,resource"
+5193,resource,resource,resource
+3638,"resource,bug",bug;resource,"resource,bug"
+299,resource,resource,resource
+4982,"bug,resource",bug;deprecat;resource,"bug,resource"
+6386,"bug,test",bug,"bug,test"
+2922,"bug,feature,test,refactor",bug;deprecat;feature;test,-
+1032,"bug,resource",bug;deprecat;resource,"bug,resource"
+4946,"bug,test",bug;refactoring;resource;test,"bug,test"
+6480,bug,bug,bug
+438,resource,resource,resource
+2292,feature,others,feature
+1888,"resource,",resource,"resource,"
+7415,refactor,deprecat;test,"refactor,test"
+5178,"bug,resource",bug;deprecat,"bug,resource"
+6261,"bug,test",bug;test,"bug,test"
+47,test,bug;test,"refactor, test"
+2705,"test, feature ",resource;test,"test, feature "
+6411,bug,bug;resource;test,bug
+7172,bug,test,"bug, test"
+2150,refactor,deprecat;test,"refactor,bug"
+3068,bug,bug,bug
+4955,"refactor, feature",resource,"refactor, feature"
+7452,resource,resource,"bug,resource "
+2569,bug,resource,bug
+1054,resource,resource,resource
+3320,"bug,test",bug,"bug,test"
+3194,"feature, resource ",test,"feature, resource "
+2938,"feature,resource",feature,
+288,"deprecat,refactor",bug;deprecat,"deprecat,refactor"
+6244,resource,resource,resource
+5882,"bug,deprecat",bug;deprecat,"bug,deprecat"
+4985,"bug,resource",bug;resource,"bug,resource"
+5082,"bug,feature",bug,"bug,feature"
+5491,"bug,test",bug;test,"bug,test"
+3429,bug,bug,bug
+6977,bug;resource,bug;resource,bug;resource
+3352,deprecat,deprecat;refactoring,"deprecate, refactor"
+1681,"resource, bug ",bug;resource,resource
+1655,"deprecat,refactor,resource",bug;deprecat,"deprecat,refactor,resource"
+4756,bug,bug,"bug,refactor"
+4903,"feature,bug",bug;feature;test,"feature,bug"
+4584,test,test,test
+5113,"test,bug",bug;test,"test,bug"
+7164,"resource,bug",resource,"resource ,bug"
+6990,"deprecat,refactor,resource",deprecat;feature;refactoring;resource,"deprecat,refactor,resource"
+418,resource,bug;resource,resource
+7332,"bug,test,feature",bug;deprecat;feature,"bug,feature"
+5988,"bug,feature,resource",bug,"feature,bug"
+6670,bug,bug,"bug,refactor"
+532,resource,resource,resource
+3200,"feature,bug",bug;feature,"feature,bug"
+6978,refactor,refactoring,refactor
+1597,"bug,test",bug,"bug,test"
+4858,bug,bug,"bug,refactor"
+2185,"test,bug",bug;resource;test,"test,bug"
+708,resource,bug;resource;test,resource
+5419,"resource ,bug",bug;resource,"resource ,bug"
+7414,"bug,deprecat",others,"refactor, test,bug"
+6940,"bug,feature",resource,"bug,feature"
+1356,resource,deprecat;resource,resource
+5688,"bug,resource",bug;resource,"bug,resource"
+7342,"bug, resource",bug,"bug,feature"
+2297,"bug,test",bug;test,"bug, test"
+1449,refactor,bug;refactoring,refactor
+6242,"bug,test",bug,"bug,test"
+811,"resource,feature",bug;resource,"resource,feature"
+3597,"feature,resource",feature," feature,resource"
+3119,"bug,resource",bug;resource,"bug,resource"
+7360,"resource,bug",bug;resource,"resource,bug"
+5590,"bug,test",bug;test,"bug,test"
+5769,"feature,test,bug",bug;resource;test,"feature,test,bug"
+867,bug,bug,bug
+2740,"bug, deprecat ",bug;deprecat,"bug, deprecat,refactor"
+3297,"bug,test",bug;resource,"bug,test"
+2802,bug,bug,bug
+4234,"feature,bug",feature,"feature,bug"
+3185,bug,bug;test,"bug,test"
+6329,bug,resource,bug
+443,bug,bug;resource;test,"bug, test"
+289,resource,resource,resource
+2384,"bug,resource",deprecat;resource,"bug,resource"
+7005,"feature,bug",others,"feature,bug"
+4768,bug,bug;resource;test,bug
+4768,bug,bug;resource;test,bug
+5869,"refactor,bug,feature,test",bug;deprecat,"bug, test,refactor"
+2405,feature,others,feature
+5862,"bug,feature",bug;test,"bug,feature"
+4603,resource,resource,resource
+1569,bug,bug;resource;test,bug
+3422,bug,bug,"bug,refactor"
+7451,refactor,refactoring,refactor
+1726,"bug,resource",bug,"bug,resource"
+3926,resource,others,resource
+2020,bug,bug;deprecat,bug
+1386,bug,feature,"bug,deprecat"
+3927,bug,bug;deprecat,bug
+5808,resource,resource,resource
+6207,"bug,test",bug;deprecat;resource;test,"bug,test"
+3361,bug,bug,bug
+423,"test,feature",test,"test,feature"
+5094,bug,bug,bug
+3880,bug,bug,bug
+3700,bug,bug;deprecat,bug
+1149,"test,refactor",refactoring;resource;test,"test,refactor"
+2080,"refactor, resource",others,"refactor, resource"
+6767,refactor,deprecat;refactoring;resource;test,refactor
+1516,"bug,test",bug,"bug,test"
+4709,bug,bug;refactoring,bug
+683,resource,resource;test,resource
+1316,"bug,test",bug;deprecat;test,"bug,test"
+1420,resource,resource,resource
+7543,"bug,test",bug;test,"bug,test"
+3315,"bug,test",bug,"bug,test"
+424,bug,bug;test,bug
+4535,refactor,refactoring;resource,refactor
+4355,"bug,resource",bug;resource,"bug,resource"
+5829,"bug,resource",bug;deprecat;refactoring;resource,"bug,resource"
+6845,"feature,test",feature,"feature, refactor"
+1286,"bug,resource",bug;feature;resource,"bug,resource"
+2066,"bug, feature",bug;deprecat;test,"bug, feature"
+3031,bug,deprecat,"bug,refactor"
+5811,bug,bug;resource,"bug,resource"
+692,resource,resource,resource
+2979,bug,others,"bug,refactor"
+6982,bug,bug;resource,bug
+3903,"bug,resource",bug;resource,"bug,resource"
+923,"bug, test,resource,feature",bug;resource;test,"bug, test,resource,feature"
+6685,"bug,resource",bug;resource,"bug,resource"
+3265,"deprecat,bug",bug;deprecat,"deprecat,bug,refactor"
+1218,"bug,resource",bug;resource;test,"bug,resource"
+1256,feature,feature,feature
+6942,"resource,deprecat",deprecat;resource,"resource,deprecat"
+1132,"feature,bug",bug;deprecat,"feature,bug"
+1628,"feature,resource",feature,"feature,resource,refactor"
+7775,"refactor,bug",refactoring,"refactor,bug"
+6987,bug,others,bug
+6817,resource,others,test
+4639,feature,others,"feature,resource"
+2981,"bug,test",bug;deprecat,"bug, test"
+5818,"bug,feature",bug;deprecat,"bug,feature"
+7907,"deprecat,resource",deprecat;resource;test,"deprecat,resource"
+249,resource,deprecat;resource,resource
+752,"test,feature,bug",bug;test,"test,feature,bug"
+7175,"bug,test",bug;test,"bug,test"
+3983,resource,resource,feature
+2152,bug,merge,"bug,resource"
+1676,"bug,test,feature",bug;deprecat;test,"bug,test"
+4783,"bug,resource",bug;resource,"bug, resource"
+5204,"bug,feature,test,resource",bug;resource,"bug,feature,resource"
+490,resource,resource,resource
+4385,"bug,refactor",bug,"bug,refactor"
+948,"feature,test",feature,"feature,test"
+469,"refactor,test",deprecat;test,"refactor,test"
+6100,bug,bug;resource;test,"bug,test"
+1907,"refactor,test",bug;deprecat;feature;refactoring;test,"refactor,test"
+3792,bug,bug;test,"bug, test"
+3660,bug,bug;resource,bug
+4607,deprecat,deprecat;resource,"deprecat,refactor"
+4607,"resource,refactor",deprecat;resource,"refactor, resource"
+6196,"test,bug",test,"test,bug"
+4473,bug,bug;resource,bug
+1110,"resource,bug",bug;deprecat;resource,"resource,bug"
+95,"test,bug",bug;test,"test,bug"
+4987,resource,bug;resource,resource
+3506,resource,resource,"resource,feature"
+6045,resource,resource,resource
+3299,"bug,test",bug;feature,"bug,test"
+6012,"bug,test,feature",bug,"bug,test"
+6124,"test,bug",bug;resource;test,"test,bug"
+5385,"bug,feature",bug;resource,"bug,feature"
+5695,"bug,resource",bug;resource,resource
+4646,"bug,feature,test",bug,"bug,feature"
+6423,refactor,deprecat,"bug, refactor "
+3323,bug,bug,bug
+1593,"feature,bug",bug;feature,"feature,refactor"
+7219,bug,bug,bug
+445,bug,bug;resource,bug
+6968,"bug,test",bug,"bug,test"
+1830,bug,bug,bug
+2273,"bug,test",bug,"bug,test"
+7096,"test,bug",bug;test,"bug, test
+"
+7371,"bug,resource",bug;resource,"bug,resource"
+5657,bug,bug;test,bug
+6034,bug,bug;resource,bug
+6128,"bug,test",bug;deprecat;test,"bug,test"
+7334,resource,resource,resource
+7529,"deprecat,resource",bug;deprecat;resource,"deprecat,resource"
+2729,"refactor,bug",bug;deprecat,"refactor,bug"
+3086,bug,bug,bug
+2513,bug,bug,bug
+985,"feature, test, bug
+",bug,"feature, test
+"
+5300,"bug,refactor",bug;refactoring;resource,"bug, refactor "
+7382,bug,bug;test,bug
+6452,"bug,feature",bug,"bug,feature"
+1820,deprecat,deprecat,deprecat
+3135,"bug,feature,resource",bug;resource,"bug,feature,resource"
+6492,test,test,"test,refactor"
+241,"refactor, resource",deprecat;resource,"refactor, resource"
+5788,"bug,test",bug,"bug,test"
+319,resource,resource,resource
+6122,"feature,test",others,"feature,test,bug"
+2674,"refactor, feature, test",deprecat;feature;refactoring;test,"refactor, feature"
+1988,bug,bug,"bug,refactor"
+6062,resource,bug;resource,"bug,resource "
+101,resource,resource,resource
+6047,"bug,resource",bug;resource,"bug,resource"
+1131,"bug,feature",bug,"bug,feature"
+4518,bug,bug,bug
+2960,"bug,test",bug;test,"bug,test"
+2299,"bug,test",bug;resource;test,"bug,test"
+6887,"bug, test",bug;resource,"bug, test"
+1952,bug,bug,bug
+1055,resource,resource,resource
+2074,bug,bug,"bug,refactor"
+6917,refactor,deprecat;resource,refactor
+5150,"bug,feature",feature,"feature,refactor"
+5819,bug,bug,bug
+6834,bug,bug;deprecat;test,bug
+5250,bug,bug;test,bug
+5421,deprecat,bug;deprecat,deprecat
+4255,feature,deprecat;resource,feature
+729,bug,bug,"bug,refactor"
+6503,bug,bug;test,"bug,refactor"
+6561,refactor,resource,refactor
+3564,"refactor, resource",refactoring;resource,"refactor, resource"
+4120,bug,others,bug
+6867,bug,bug,bug
+7699,"refactor,bug",bug;resource,bug
+7629,"bug, resource",bug;resource,"bug, resource"
+4757,"bug,resource",bug;resource,"bug,resource"
+2093,bug,bug,"bug,refactor"
+340,"bug,test",bug;feature;resource,"bug,test"
+2451,"bug,refactor",bug;deprecat,"bug,refactor"
+5894,"resource, refactor, test,resource",deprecat;refactoring;resource;test,"resource, refactor,resource"
+3915,bug,bug,"bug,refactor"
+4307,"bug,resource",bug;resource,"bug,resource"
+5817,bug,bug;resource,bug
+2278,"bug,resource",bug;deprecat;resource,"bug,resource"
+2332,resource,resource,resource
+3331,"resource,feature",bug;feature;resource,
+6571,"bug, resource ",bug;resource,"bug, resource "
+6537,refactor,deprecat,bug
+5192,"test,bug",bug;test,"test,bug"
+7532,"test,bug",bug;test,"test,bug"
+903,bug,bug,"bug,refactor"
+3382,bug,bug;deprecat;feature;test,bug
+4449,"bug,test",bug;deprecat,"bug,test"
+7187,"resource,bug",bug;resource,"resource,bug"
+5765,resource,resource,resource
+5332,"bug,test",bug;test,"bug,test"
+2956,"bug,feature",bug;test,"bug,feature"
+5534,resource,others,resource
+3901,bug,others,bug
+2397,bug,others,"bug,feature"
+3090,"bug,resource",bug;deprecat;refactoring;resource,"bug,resource"
+7086,resource,resource,"feature,resource"
+2992,"bug,test,feature",bug;deprecat;test,"bug,feature"
+3368,feature,feature,"feature,resource"
+5928,"bug,feature",bug,"bug,feature"
+711,bug,bug,bug
+7879,bug,bug;resource,bug
+3863,"feature,test",feature,"feature,test"
+7147,bug,bug,bug
+5536,"feature, test",feature,"feature, test"
+3592,"feature, refactor",others,"feature, refactor"
+2239,resource,resource,"resource,bug"
+3304,"bug,deprecat",bug,"bug,deprecat"
+1992,bug,feature,bug
+6465,"resource,bug",bug;deprecat,"resource,bug"
+5944,bug,others,bug
+330,"bug,deprecat",bug;resource,"bug,deprecat,refactor"
+3838,"bug,resource ",others,"bug,resource,refactor"
+203,bug,bug;resource,bug
+6961,"bug,resource",bug;resource,"bug,resource"
+5701,resource,others,"feature,merge"
+1763,"resource, test",bug;resource;test,"Resource, test"
+7189,"bug,refactor",bug;deprecat,"bug, refactor "
+3451,bug,bug,"bug,refactor"
+709,bug,bug,bug
+840,"deprecate, test,resource",deprecat,
+4796,"bug,feature",bug,"bug,feature"
+5743,"bug,test",bug,"bug,test"
+6383,resource,resource,resource
+6880,resource,deprecat;resource,"Resource
+"
+4667,"bug,test",bug,"bug,test"
+127,"bug,feature,test,refactor",bug;test,"bug,feature,test"
+5468,bug,others,bug
+3004,"bug,refactor",bug;refactoring,"bug,refactor"
+7464,"bug,test",bug,"bug, test"
+1059,resource,deprecat;resource,resource
+7217,"resource, deprecat",deprecat;resource,"resource,deprecat"
+5308,"refactor,bug",bug;deprecat,"refactor, bug,resource"
+7240,resource,resource,resource
+621,"bug,feature",bug,
+3547,"test,feature",deprecat,"feature,test"
+7779,"refactor, bug",deprecat;feature,"refactor,bug"
+3020,"refactor, feature",deprecat;refactoring;resource,"refactor,feature"
+1660,"bug,feature",bug;test,"bug, test,refactor"

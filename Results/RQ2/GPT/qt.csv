@@ -1,0 +1,364 @@
+Id,Categories
+9539.0,Category(ies): resource
+17339.0,Category(ies): resource
+26950.0,Category(ies): bug
+16397.0,Category(ies): bug
+20700.0,Category(ies): feature
+3849.0,Category(ies): feature
+4604.0,Category(ies): refactor
+25404.0,Category(ies): resource
+7798.0,Category(ies): bug
+2439.0,Category(ies): test
+17897.0,"Category(ies): resource, test"
+17220.0,Category(ies): refactor
+2671.0,"Category(ies): feature, bug"
+19388.0,Category(ies): bug
+16861.0,"Category(ies): feature, test"
+2258.0,"Category(ies): bug, test, resource"
+2485.0,"Category(ies): bug, test"
+6269.0,"Category(ies): feature, test"
+24593.0,Category(ies): bug
+19210.0,Category(ies): test
+17655.0,Category(ies): test
+24970.0,Category(ies): test
+12965.0,"Category(ies): bug, test"
+24657.0,Category(ies): bug
+19690.0,Category(ies): resource
+11665.0,Category(ies): bug
+18629.0,"Category(ies): feature, refactor"
+17983.0,Category(ies): resource
+24665.0,Category(ies): resource
+23674.0,"Category(ies): resource, test"
+14504.0,Category(ies): deprecate
+6157.0,Category(ies): bug
+11524.0,Category(ies): bug
+7814.0,"Category(ies): deprecate, test"
+19266.0,Category(ies): test
+24611.0,Category(ies): feature
+21932.0,Category(ies): resource
+15045.0,Category(ies): bug
+15400.0,Category(ies): bug
+16880.0,Category(ies): test
+11067.0,"Category(ies): test, refactor"
+19041.0,"Category(ies): refactor, test"
+15514.0,Category(ies): refactor
+20883.0,Category(ies): test
+25199.0,Category(ies): refactor
+20901.0,Category(ies): bug
+2721.0,Category(ies): test
+13370.0,Category(ies): refactor
+2830.0,Category(ies): refactor
+4674.0,"Category(ies): feature, test"
+21212.0,Category(ies): bug
+1127.0,Category(ies): bug
+19526.0,Category(ies): bug
+369.0,"Category(ies): bug, feature"
+19247.0,"Category(ies): bug, test"
+2125.0,Category(ies): bug
+17591.0,Category(ies): test
+9855.0,"Category(ies): feature, refactor"
+11406.0,Category(ies): refactor
+26184.0,Category(ies): refactor
+5056.0,Category(ies): feature
+10937.0,Category(ies): feature
+2177.0,"Category(ies): bug, deprecate"
+15541.0,Category(ies): bug
+13205.0,Category(ies): feature
+6820.0,"Category(ies): test, refactor"
+19545.0,"Category(ies): feature, test"
+2419.0,Category(ies): test
+17620.0,Category(ies): bug
+9918.0,"Category(ies): refactor, test"
+19849.0,Category(ies): bug
+3936.0,Category(ies): test
+532.0,Category(ies): bug
+15329.0,"Category(ies): test, refactor"
+17096.0,Category(ies): bug
+1303.0,Category(ies): resource
+1257.0,Category(ies): bug
+19779.0,Category(ies): refactor
+18598.0,Category(ies): bug
+3382.0,Category(ies): resource
+13592.0,"Category(ies): bug, test"
+17979.0,"Category(ies): bug, refactor, test"
+7548.0,Category(ies): refactor
+10512.0,Category(ies): refactor
+606.0,Category(ies): test
+24282.0,"Category(ies): feature, test"
+11991.0,Category(ies): bug
+18330.0,Category(ies): test
+20575.0,Category(ies): feature
+13772.0,Category(ies): test
+4682.0,Category(ies): refactor
+4082.0,"Category(ies): feature, test"
+12017.0,Category(ies): bug
+13060.0,"Category(ies): feature, test, resource"
+11027.0,"Category(ies): feature, refactor"
+18444.0,"Category(ies): bug, feature"
+1132.0,Category(ies): refactor
+21530.0,"Category(ies): test, bug"
+15336.0,Category(ies): bug
+24137.0,"Category(ies): bug, test"
+18258.0,Category(ies): feature
+7513.0,"Category(ies): feature, refactor"
+3230.0,"Category(ies): feature, test"
+17554.0,"Category(ies): deprecate, refactor"
+24402.0,Category(ies): refactor
+9840.0,"Category(ies): feature, test"
+5413.0,"Category(ies): test, bug"
+22706.0,"Category(ies): feature, refactor"
+6545.0,Category(ies): resource
+9313.0,Category(ies): refactor
+7382.0,Category(ies): refactor
+12985.0,Category(ies): resource
+13790.0,"Category(ies): deprecate, test"
+21680.0,Category(ies): bug
+9233.0,Category(ies): test
+11818.0,Category(ies): bug
+1400.0,Category(ies): test
+18289.0,Category(ies): bug
+24728.0,"Category(ies): bug, refactor"
+6260.0,Category(ies): refactor
+2812.0,Category(ies): bug
+20401.0,Category(ies): bug
+19944.0,Category(ies): bug
+5534.0,"Category(ies): feature, refactor"
+10867.0,"Category(ies): deprecate, refactor"
+17594.0,Category(ies): refactor
+11966.0,Category(ies): refactor
+24245.0,Category(ies): refactor
+5599.0,Category(ies): resource
+21060.0,"Category(ies): bug, refactor"
+22224.0,Category(ies): resource
+12527.0,Category(ies): bug
+13356.0,"Category(ies): deprecate, test"
+8716.0,Category(ies): refactor
+20785.0,Category(ies): feature
+11141.0,Category(ies): bug
+7521.0,"Category(ies): feature, test"
+19311.0,Category(ies): bug
+18726.0,Category(ies): test
+6671.0,Category(ies): bug
+11931.0,Category(ies): refactor
+6188.0,"Category(ies): refactor, test"
+25473.0,"Category(ies): bug, test"
+690.0,Category(ies): refactor
+15972.0,Category(ies): bug
+8572.0,"Category(ies): feature, refactor"
+8246.0,Category(ies): bug
+14898.0,Category(ies): test
+15368.0,Category(ies): refactor
+7811.0,"Category(ies): refactor, test"
+9620.0,Category(ies): refactor
+6144.0,Category(ies): refactor
+187.0,Category(ies): refactor
+14612.0,Category(ies): bug
+2789.0,Category(ies): bug
+17826.0,Category(ies): bug
+18977.0,Category(ies): bug
+19484.0,Category(ies): refactor
+15646.0,Category(ies): bug
+5432.0,Category(ies): refactor
+13240.0,Category(ies): bug
+20277.0,Category(ies): refactor
+10371.0,Category(ies): resource
+110.0,Category(ies): bug
+22155.0,Category(ies): deprecate
+9021.0,Category(ies): resource
+12514.0,Category(ies): refactor
+20585.0,Category(ies): feature
+5132.0,"Category(ies): feature, test"
+19051.0,Category(ies): bug
+20556.0,"Category(ies): feature, test"
+24210.0,Category(ies): bug
+18482.0,Category(ies): bug
+10746.0,"Category(ies): feature, test"
+7098.0,Category(ies): feature
+7136.0,"Category(ies): test, refactor"
+26745.0,Category(ies): refactor
+21481.0,Category(ies): refactor
+8721.0,Category(ies): merge
+8306.0,"Category(ies): bug, test"
+10020.0,Category(ies): bug
+12295.0,Category(ies): test
+8328.0,Category(ies): feature
+13585.0,"Category(ies): feature, test"
+22418.0,Category(ies): test
+2460.0,Category(ies): resource
+516.0,Category(ies): bug
+5973.0,Category(ies): bug
+3963.0,"Category(ies): feature, refactor"
+16502.0,"Category(ies): feature, test"
+15463.0,Category(ies): refactor
+18288.0,Category(ies): bug
+9765.0,"Category(ies): deprecate, resource"
+23783.0,"Category(ies): test, bug"
+5930.0,Category(ies): bug
+11860.0,Category(ies): refactor
+9079.0,Category(ies): test
+9562.0,"Category(ies): bug, test"
+4147.0,Category(ies): bug
+8535.0,"Category(ies): test, refactor"
+14489.0,Category(ies): resource
+8497.0,"Category(ies): feature, bug"
+13717.0,"Category(ies): deprecate, refactor"
+4739.0,Category(ies): feature
+11517.0,Category(ies): deprecate
+20952.0,"Category(ies): test, refactor"
+16409.0,Category(ies): resource
+16700.0,Category(ies): bug
+15427.0,Category(ies): feature
+13112.0,Category(ies): bug
+14569.0,Category(ies): bug
+12179.0,Category(ies): bug
+14652.0,Category(ies): refactor
+13721.0,"Category(ies): bug, test"
+20680.0,Category(ies): bug
+2922.0,Category(ies): feature
+1938.0,Category(ies): bug
+21460.0,Category(ies): resource
+12333.0,Category(ies): test
+13386.0,Category(ies): bug
+11488.0,Category(ies): resource
+11670.0,Category(ies): test
+16721.0,Category(ies): resource
+22118.0,Category(ies): bug
+22142.0,Category(ies): bug
+24180.0,Category(ies): test
+16818.0,"Category(ies): bug, refactor"
+13114.0,Category(ies): refactor
+7120.0,"Category(ies): bug, resource"
+20669.0,Category(ies): test
+2022.0,Category(ies): bug
+633.0,Category(ies): test
+2079.0,"Category(ies): feature, test, bug"
+5433.0,Category(ies): test
+19387.0,Category(ies): deprecate
+8534.0,"Category(ies): feature, test"
+4140.0,Category(ies): refactor
+12473.0,Category(ies): feature
+13488.0,"Category(ies): refactor, feature, test"
+13042.0,"Category(ies): feature, refactor"
+14894.0,Category(ies): bug
+21697.0,Category(ies): feature
+8258.0,Category(ies): refactor
+24277.0,Category(ies): test
+1026.0,"Category(ies): refactor, feature"
+4969.0,Category(ies): bug
+20163.0,Category(ies): test
+5411.0,Category(ies): merge
+5046.0,Category(ies): refactor
+1205.0,Category(ies): refactor
+16658.0,Category(ies): feature
+20225.0,Category(ies): bug
+16689.0,Category(ies): refactor
+11779.0,Category(ies): resource
+19705.0,Category(ies): bug
+7652.0,Category(ies): refactor
+17957.0,Category(ies): bug
+336.0,Category(ies): feature
+16368.0,Category(ies): refactor
+8498.0,Category(ies): test
+2469.0,Category(ies): test
+21874.0,Category(ies): resource
+24129.0,Category(ies): test
+11638.0,Category(ies): resource
+21878.0,Category(ies): bug
+4852.0,Category(ies): resource
+8320.0,Category(ies): resource
+8232.0,"Category(ies): refactor, test"
+3575.0,Category(ies): test
+7426.0,Category(ies): merge
+23512.0,"Category(ies): bug, test"
+398.0,Category(ies): feature
+22046.0,Category(ies): bug
+10412.0,Category(ies): feature
+12740.0,Category(ies): refactor
+8853.0,"Category(ies): bug, test"
+9055.0,Category(ies): bug
+7686.0,"Category(ies): deprecate, test"
+9301.0,Category(ies): bug
+5028.0,Category(ies): bug
+16609.0,"Category(ies): refactor, bug"
+9102.0,"Category(ies): feature, test"
+11536.0,Category(ies): deprecate
+20668.0,Category(ies): refactor
+18791.0,Category(ies): bug
+6179.0,Category(ies): bug
+14745.0,Category(ies): refactor
+15510.0,Category(ies): refactor
+26152.0,Category(ies): refactor
+16556.0,"Category(ies): test, bug"
+8114.0,Category(ies): resource
+19608.0,"Category(ies): feature, refactor"
+7298.0,Category(ies): bug
+8372.0,Category(ies): feature
+6209.0,Category(ies): resource
+9976.0,"Category(ies): test, refactor"
+27056.0,"Category(ies): bug, test"
+20595.0,Category(ies): feature
+959.0,Category(ies): refactor
+23484.0,Category(ies): refactor
+9237.0,Category(ies): test
+26071.0,Category(ies): feature
+3593.0,Category(ies): bug
+2964.0,Category(ies): deprecate
+26308.0,Category(ies): bug
+4564.0,Category(ies): bug
+25386.0,Category(ies): refactor
+5006.0,Category(ies): refactor
+8730.0,Category(ies): bug
+9191.0,Category(ies): merge
+19251.0,Category(ies): bug
+25807.0,Category(ies): bug
+4707.0,Category(ies): resource
+5347.0,Category(ies): bug
+7808.0,"Category(ies): feature, test"
+24929.0,"Category(ies): refactor, test"
+25042.0,"Category(ies): resource, deprecate"
+5718.0,Category(ies): test
+4253.0,Category(ies): feature
+174.0,Category(ies): bug
+17019.0,Category(ies): bug
+18303.0,Category(ies): bug
+7121.0,Category(ies): refactor
+5666.0,"Category(ies): test, bug"
+26862.0,"Category(ies): bug, test"
+12619.0,Category(ies): resource
+15867.0,"Category(ies): bug, test"
+17606.0,"Category(ies): feature, test"
+23376.0,Category(ies): feature
+5949.0,"Category(ies): refactor, test"
+24324.0,Category(ies): bug
+12556.0,Category(ies): feature
+12062.0,Category(ies): deprecate
+1964.0,"Category(ies): feature, test"
+23303.0,Category(ies): bug
+21866.0,"Category(ies): refactor, bug"
+18338.0,Category(ies): test
+13815.0,"Category(ies): test, refactor"
+7385.0,Category(ies): refactor
+2200.0,Category(ies): bug
+3398.0,Category(ies): bug
+16634.0,Category(ies): feature
+4046.0,Category(ies): feature
+22245.0,Category(ies): refactor
+9308.0,Category(ies): merge
+8924.0,Category(ies): refactor
+6282.0,Category(ies): merge
+18375.0,"Category(ies): feature, refactor"
+22356.0,Category(ies): feature
+21257.0,Category(ies): feature
+328.0,"Category(ies): bug, test"
+4637.0,Category(ies): refactor
+12808.0,Category(ies): test
+12060.0,Category(ies): refactor
+429.0,"Category(ies): refactor, feature"
+21591.0,Category(ies): bug
+15575.0,Category(ies): bug
+2478.0,"Category(ies): feature, bug, resource, test"
+4288.0,Category(ies): feature
+26725.0,"Category(ies): feature, resource, test"
+11366.0,Category(ies): bug
+12064.0,Category(ies): refactor
+5532.0,Category(ies): bug

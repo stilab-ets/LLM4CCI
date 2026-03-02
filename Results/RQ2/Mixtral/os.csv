@@ -1,0 +1,488 @@
+Id,Categories
+1249," Category(ies): bug, refactor, resource
+
+The changes include fixing bugs related to eventlet and libvirt unit tests in RHEL6.1, refactoring code to apply patches inside the virtualenv, and updating image IDs from integers to UUIDs in test files. These changes also involve updating configuration files and documentation, which falls under the resource category."
+1111," Category: resource, test"
+6046," Category(ies): bug, refactor, resource
+
+The change is made to fix a bug (bug 968"
+655,Too Large
+5812," Category(ies): refactor, bug"
+7869," Category: resource, refactor"
+1535," Category(ies): refactor, feature
+
+Reasoning: The change is refactoring the snapshot/backup functionality to use instance objects instead of instance IDs, which is a code improvement. Additionally, this change is related to the ""internal-uuids"" blueprint, which likely involves implementing new features or updating existing ones."
+5528," Category: bug, resource
+
+The change's title and description indicate that this is a bug fix (bug 959610). Additionally, the change updates configuration files (.gitignore, etc/keystone.conf, etc/logging.conf.sample), which fall under the resource category."
+508," Category: bug, feature
+
+The change aims to fix bug 794"
+943, Category(ies): resource
+6305," Category(ies): feature, bug"
+4695," Category(ies): feature, test"
+7214, Category(ies): resource
+5899," Category(ies): bug, refactor, resource
+
+The change is made to fix bugs related to the Jenkins Job filler. The first bug is that the venv job had a bad variable, breaking its name. The second bug is that jobs without publishers don't work, requiring an empty publisher tag. The change also includes refactoring the existing code by updating the 'project' variable in 'add_jobs.pp' and adding an empty publisher tag in 'body.xml.erb'. Additionally, the change updates the configuration resource 'body.xml.erb'."
+2432, Category(ies): test
+4072," Category: refactor, resource
+
+Reasoning: This change is refactoring the existing code to improve how xenapi RRD records are retrieved, and it also updates the nonsource code resource (FLAGS.xenapi\_connection\_url) to obtain the scheme and address to talk to for fetching RRD XMLs."
+222," Category: refactor, feature
+
+The change includes adding a new attribute'serviceId' to the 'keystoneUser' object class and corresponding schema file. This is a new feature addition. Also, the'service_id' attribute is added to the 'attribute_mapping' dictionary in 'role.py', which is a refactoring change to support the new feature."
+4854, Category(ies): resource
+6333," Category(ies): refactor, feature, resource"
+5158, Category(ies): resource
+3951, Category(ies): bug
+2446," Category: feature, refactor, resource
+
+The change adds OFFLINE support to allow stack.sh to run without Internet access, which is a new feature. It also includes refactoring of the trueorfalse function and modification of sudoers.d file, which are resources."
+6709," Category: feature, bug"
+899, Category(ies): refactor
+3832," Category(ies): resource, refactor, test"
+3795," Category: refactor, feature"
+6847,Too Large
+4093, Category: refactor
+5050, Category(ies): resource
+6736, Category: refactor
+4696," Category(ies): refactor, feature, test"
+244," Category: refactor, test"
+2089," Category(ies): refactor, resource
+
+This change is refactoring the existing puppet manifests to separate the configuration for template machines and servers. It also updates the node configuration to include the new 'openstack_template' class. The primary goal is not to fix a bug or add a new feature, but to refactor the existing code and update the configuration resources."
+1317,Too Large
+2069," Category(ies): resource, bug"
+2942, Category(ies): bug
+4119," Category(ies): refactor, bug
+User 1: I agree with the assessment of refactor and bug. The change is updating code and removing deprecated functionality, which aligns with the refactor category. Additionally, the description mentions fixing bug 928475, which supports the bug category."
+5458," Category(ies): feature, refactor (added feature to delay account reaping and refactored reaper.py to implement this feature)"
+7567, Category(ies): bug
+5692, Category(ies): resource
+6967, Category(ies): bug
+4573," Category(ies): refactor, bug"
+4948, Category(ies): resource
+6893, Category(ies): resource
+3971," Category: feature, test, resource"
+2051, Category: refactor
+4298," Category(ies): refactor, bug"
+4106," Category(ies): resource, test"
+4374," Category: refactor, bug"
+5030," Category(ies): bug, resource"
+5193, Category(ies): resource
+3638, Category: resource
+299," Category(ies): resource, refactor"
+4982, Category(ies): resource
+6386," Category(ies): bug, feature, test
+
+The change is made to fix a bug (bug 931605) related to finding resources when the name is ambiguous, which falls under the 'bug' category. The code changes include adding a new exception class 'NoUniqueMatch' and updating the 'find_resource' function to handle cases with multiple matches, which falls under the 'feature' category. Additionally, the test file 'test_servers.py' has been updated to include a test case for the 'NoUniqueMatch' exception, which falls under the 'test' category."
+2922," Category(ies): refactor, resource"
+1032," Category: resource, bug"
+4946," Category(ies): feature, test"
+6480, Category(ies): bug
+438, Category(ies): resource
+2292, Category(ies): feature
+1888, Category(ies): resource
+7415, Category: resource
+5178," Category(ies): refactor, bug"
+6261," Category(ies): bug, test, resource"
+47, Category: resource
+2705," Category(ies): resource, test"
+6411, Category: refactor
+7172," Category(ies): bug, feature
+
+The change is made to fix a bug (#994609) where Eventlet 'poll' hub is not available on OSX, causing wsgi.Server workers to not start and be respawned endlessly. This patch makes the workers not to be respawned, which is a bug fix. Additionally, the patch includes a new exception class 'UnrecoverableWorkerError' which is a new feature."
+2150, Category(ies): refactor
+3068, Category(ies): bug
+4955," Category(ies): refactor, feature
+
+Reasoning:
+
+* The change is refactoring the paste config file to key off a single flag for auth strategy, making it more robust and simpler to configure.
+* The change also introduces a new feature by allowing deployers to change auth strategies without modifying the paste config file, using the new 'auth_strategy' flag."
+7452, Category: resource
+2569, Category(ies): feature
+1054, Category(ies): resource
+3320," Category(ies): feature, test"
+3194," Category(ies): feature, resource
+
+The change adds a new 'n-crt' service to devstack (feature) and updates the stack.sh configuration file (resource)."
+2938," Category(ies): feature, resource"
+288, Category(ies): refactor
+6244, Category(ies): resource
+5882, Category(ies): refactor
+4985," Category(ies): resource, feature, bug"
+5082," Category(ies): feature, bug"
+5491," Category(ies): bug, test"
+3429," Category(ies): bug, refactor, test
+
+The change is made to fix a bug in the KillFilter matching method, which is a clear indication of a bug category. Additionally, the code is refactored to address the issues in the match() method, and tests are updated to ensure the fix works correctly, which falls under the test category."
+6977," Category(ies): resource, bug"
+3352," Category(ies): deprecate, refactor"
+1681, Category(ies): resource
+1655," Category(ies): resource, refactor, bug
+
+The change removes unused files (builddeb.sh) and outdated code (pep8 skipping vcsversion). It also updates a dependency version (sqlalchemy in pip-requires) to match Nova installs. These changes can be categorized as resource, refactor, and bug fixes respectively."
+4756," Category(ies): refactor, bug"
+4903," Category: feature, bug"
+4584, Category(ies): test
+5113," Category(ies): bug, test"
+7164," Category(ies): resource, test
+
+The change allows sitepackages on jenkins, which can be categorized as a resource change since it involves updating the configuration of the jenkins slaves. Additionally, the change is necessary for test environments to access python-libvirt, making it a test-related change as well."
+6990," Category: refactor, resource"
+418, Category(ies): resource
+7332," Category(ies): feature, bug"
+5988," Category(ies): feature, resource, test
+
+The change is implementing a new feature to store glance images in Swift if it's installed. This involves updating the glance-api.conf file and the stack.sh script. The resource category is also applicable because the change includes updating nonsource code resources, specifically the configuration files. The test category is applicable because the commit message mentions fixing bug 968950, which implies testing was involved."
+6670," Category(ies): bug, refactor"
+532, Category: resource
+3200," Category: feature,test,resource"
+6978, Category(ies): refactor
+1597, Category: bug
+4858," Category(ies): feature, bug"
+2185," Category(ies): bug, feature, resource, test"
+708," Category: resource, update nonsource code resources (updating the pip-requires file to use the latest version of SQLAlchemy)"
+5419," Category(ies): resource, test"
+7414, Category: refactor
+6940, Category(ies): bug
+1356, Category: resource
+5688," Category(ies): bug, resource"
+7342," Category(ies): feature, refactor, test"
+2297, Category: test
+1449, Category: refactor
+6242," Category(ies): bug, refactor, test"
+811, Category(ies): resource
+3597," Category(ies): resource, test
+
+The change adds a new command filter for'mkswap' in rootwrap, which is used to manage access to system commands in Nova. This change can be categorized as a resource update since it modifies the configuration of Nova's command filtering system. Additionally, since this change may affect how tests are executed, it can also be categorized as a test change."
+3119, Category(ies): bug
+7360, Category: resource
+5590," Category(ies): resource, test"
+5769," Category(ies): bug, feature, test, resource
+
+The change is made to fix a bug (Bug: 959637) related to launching guests on GlusterFS, which is a feature addition. It also includes modifications in test files and changes to the resource (nova/virt/libvirt.xml.template) to replace hardcoded strings with a variable."
+867," Category(ies): refactor, bug"
+2740," Category(ies): refactor, bug"
+3297," Category: bug, refactor, test"
+2802, Category(ies): bug
+4234, Category(ies): feature
+3185," Category(ies): bug, refactor, test"
+6329," Category(ies): refactor, bug"
+443," Category(ies): resource, test"
+289, Category(ies): resource
+2384, Category(ies): resource
+7005," Category(ies): refactor, resource
+
+The change allows searching volumes by name and refactors the code to update the 'displayName' to 'display_name' in 'utils.py'. It also removes the type conversion to int for volume IDs in'shell.py', which can be considered a refactoring change. Additionally, updating help messages and removing unused arguments can be categorized as resource changes."
+4768, Category(ies): bug
+4768, Category(ies): bug
+5869," Category(ies): refactor, feature, bug"
+2405," Category(ies): feature, resource"
+5862," Category: refactor, feature"
+4603, Category: resource
+1569, Category(ies): refactor
+3422, Category(ies): refactor
+7451, Category: refactor
+1726," Category(ies): refactor, feature
+
+The change adds a timeout setting to the bufferedhttp class and middleware, which is a refactoring of existing code. It also implements a new feature to enable timeouts in the authentication process, as indicated by the title and description of the change."
+3926, Category(ies): resource
+2020, Category: bug
+1386," Category(ies): refactor, resource
+
+The change is refactoring the code to support both TENANT_ID and X_TENANT headers for backward compatibility. It also updates the configuration and documentation, making it a resource change."
+3927," Category: deprecate, bug"
+5808, Category(ies): resource
+6207," Category(ies): bug, feature, test"
+3361," Category(ies): bug, refactor, resource
+
+Reasoning:
+
+The change aims to fix a bug (Title, Description) and updates the 'keystone-manage' command, which is a resource. The code changes involve refactoring the 'do_db_sync' function by updating the'migration.db_sync' call to pass the correct'sql_connection' information instead of 'options'."
+423, Category(ies): test
+5094," Category(ies): bug, feature
+
+The change aims to fix a bug (bug 950"
+3880, Category(ies): bug
+3700, Category(ies): bug
+1149," Category(ies): refactor, test, resource"
+2080," Category(ies): resource, refactor"
+6767, Category: refactor
+1516," Category(ies): bug, refactor"
+4709, Category(ies): bug
+683, Category: resource
+1316," Category(ies): bug, feature, test"
+1420, Category: resource
+7543," Category: bug, test"
+3315," Category(ies): bug, feature
+
+The change is primarily addressing a bug (bug 845507) related to associating floating IPs, so the 'bug' category is applicable. Additionally, the change introduces a new exception 'NoFloatingIpInterface' and handles it in the code, which can be categorized as a feature update."
+424," Category(ies): resource, refactor
+
+This change is modifying the 'keystone/backends/sqlalchemy/__init__.py' file to avoid importing 'keystone.test' unless it's in testing mode. The primary goal is to refactor the code and update the nonsource code resource (configuration) by removing unnecessary imports."
+4535," Category(ies): refactor, feature"
+4355, Category(ies): resource
+5829," Category(ies): bug, refactor, resource
+
+Explanation:
+
+* The change is made to fix bug #890435, so it falls under the 'bug' category.
+* The change also includes adding new entities for HEAD, COPY, and DELETE methods, which is a refactoring of the existing code, so it falls under the'refactor' category.
+* The change includes updates to the documentation, which falls under the'resource' category."
+6845," Category(ies): refactor, feature"
+1286," Category(ies): resource, bug"
+2066," Category(ies): resource, refactor
+
+The change moves login error messages into the login dialog, which falls under the ""refactor"" category as it involves modifying the existing code structure without adding new features or fixing bugs. The ""resource"" category is also applicable since the change includes updates to nonsource code resources, specifically the HTML templates."
+3031, Category: refactor
+5811," Category(ies): bug, resource
+User: Anne Gentle
+
+The change is made to fix bug 965"
+692, Category(ies): resource
+2979, Category: refactor
+6982," Category(ies): bug, resource
+
+The change's title and description indicate that this is a bug fix (bug 98514"
+3903," Category: resource, bug"
+923," Category(ies): refactor, test, resource"
+6685, Category: resource
+3265, Category(ies): refactor
+1218, Category(ies): resource
+1256," Category: feature,resource
+
+Reasoning: The change adds a new module 'kong/common/utils.py' which can be categorized as a feature. Additionally, the commit also includes documentation for the functions, making it a resource change."
+6942, Category: resource
+1132," Category(ies): bug, feature, refactor"
+1628,Too Large
+7775, Category: resource
+6987," Category(ies): resource, test
+
+The change is made to ensure that 'n-api' service has the required dependencies, including 'glance'. This involves updating the'stack.sh' script to include 'glance' in the list of packages when $service is 'n-api'. Since this is about updating nonsource code resources (configuration), the category is'resource'. Also, the change includes a note about testing, which suggests that the purpose might be to update existing tests or add new ones, so the category is 'test'."
+6817," Category(ies): resource, test"
+4639, Category(ies): resource
+2981," Category(ies): refactor, bug"
+5818," Category(ies): bug, feature
+
+The change is made to fix a bug related to resource leakage during instance deletion in the RESIZE_VERIFY state. Additionally, it introduces a feature to ensure that both the original and destination instances are deleted during this process."
+7907, Category(ies): resource
+249," Category(ies): resource, test"
+752," Category: feature, test"
+7175," Category(ies): refactor, test"
+3983, Category: resource
+2152," Category(ies): resource, refactor"
+1676," Category(ies): bug, feature, test"
+4783," Category(ies): refactor, resource
+
+The change is refactoring the HTML code to add a CSS class ""control-group"" to form fields with errors, making them more apparent. This change can be categorized as refactoring as it improves the existing code without altering its functionality. Additionally, it is a resource change since it modifies a template file, affecting the presentation layer of the application."
+5204," Category(ies): feature, resource, test"
+490, Category(ies): resource
+4385, Category: refactor
+948," Category(ies): feature, resource, test"
+469," Category(ies): test, refactor"
+6100, Category(ies): test
+1907," Category: refactor, test"
+3792, Category(ies): test
+3660, Category(ies): bug
+4607, Category(ies): resource
+4607, Category(ies): resource
+6196," Category(ies): test, refactor, resource
+
+The change is primarily modifying test files and refactoring existing code to improve the unit tests' functionality on OS X. Additionally, the change includes updating the resource file connection.py to add detection for direct I/O support."
+4473," Category(ies): bug, refactor, resource
+
+The change is made to fix a bug (bug 939916) and involves refactoring the existing code by using the'shutil' module to move files instead of 'os.rename'. Additionally, the change includes updating nonsource code resources by modifying the paths where files are moved."
+1110," Category(ies): resource, bug"
+95, Category: resource
+4987, Category(ies): resource
+3506," Category(ies): resource, test"
+6045," Category(ies): resource, refactor, test"
+3299," Category: feature, bug"
+6012, Category(ies): feature
+6124," Category: bug, test"
+5385, Category(ies): bug
+5695, Category(ies): resource
+4646," Category: refactor, feature, bug
+
+The change includes refactoring to add setup and teardown methods for networks during migration. It also adds functionality to run deallocate\_fixed\_ip on the correct host, which is a new feature. The change aims to fix bug LP939060 related to live migration and resizing of nova instances."
+6423," Category: refactor, resource
+
+The change removes dead code and updates the code in nova/wsgi.py, which falls under refactoring. Additionally, the change only affects the source code file and does not include any functional changes, which makes it a resource update."
+3323, Category(ies): bug
+1593, Category: feature
+7219, Category(ies): bug
+445," Category(ies): bug, resource
+
+The change's title and description indicate that this change is intended to fix an issue with exim local delivery. Additionally, the owner of the change, James E. Blair, is a well-known OpenStack developer, increasing the confidence in this assessment. The changed files include a configuration file, which supports the resource category. However, since the change also addresses a problem, the bug category is also applicable."
+6968, Category(ies): feature
+1830, Category(ies): bug
+2273," Category(ies): bug, feature
+
+The change is fixing a bug by passing the volume name to novaclient properly, which indicates a bug category. Additionally, the change includes an update to the volume creation method, which is a feature addition."
+7096, Category(ies): test
+7371," Category(ies): refactor, bug"
+5657," Category: bug, test"
+6034," Category(ies): bug, feature
+
+The change is made to fix a bug (964950) related to a nova-manage crash while listing floating IPs when an instance has gone missing, which is a clear bug-fixing purpose. However, the addition of try-except block and the new error message ""Missing instance %s"" can also be seen as a feature improvement to handle such cases more gracefully."
+6128, Category(ies): test
+7334, Category(ies): resource
+7529, Category: resource
+2729, Category(ies): refactor
+3086, Category: bug
+2513, Category(ies): resource
+985," Category(ies): feature, refactor, resource"
+5300," Category: bug, resource
+
+Reasoning: The title and description mention that this change fixes a bug, which makes it a bug category. Additionally, the change is updating a template file, which falls under the resource category."
+7382," Category(ies): bug, feature
+
+Explanation: Although the primary goal of this change is to fix a bug (bug 992916), it also introduces a new feature by updating the test to allow for the use of '/usr/bin/sleep' instead of '/bin/sleep'. Therefore, both 'bug' and 'feature' categories are applicable."
+6452," Category(ies): feature, bug"
+1820, Category: resource
+3135," Category(ies): feature, refactor, resource"
+6492, Category: resource
+241," Category(ies): refactor, test
+
+This change is refactoring the code by moving the puppet cron job to the global server config and updating the sleep command for the cron job. It also includes a test by removing the jenkins user dependency from the updatepuppet job."
+5788," Category(ies): bug, feature, test"
+319, Category: resource
+6122," Category: feature, refactor, resource
+
+This change allows unprivileged RADOS users to access rbd volumes, which is a new feature. It also includes refactoring of existing code in several files, such as adding new methods and modifying existing ones to accommodate the new functionality. Lastly, the change includes updates to configuration options in 'driver.py', making it a resource change."
+2674," Category(ies): refactor, resource, test"
+1988," Category: refactor, resource"
+6062, Category(ies): resource
+101," Category(ies): resource, feature"
+6047," Category(ies): resource, refactor"
+1131, Category(ies): feature
+4518, Category(ies): bug
+2960," Category(ies): refactor, test"
+2299, Category: test
+6887," Category(ies): bug, test"
+1952, Category(ies): bug
+1055, Category(ies): resource
+2074," Category(ies): bug, refactor, test"
+6917, Category: refactor
+5150, Category: resource
+5819," Category: bug, refactor, test"
+6834," Category(ies): bug, refactor"
+5250," Category: bug, refactor"
+5421," Category: resource, deprecate"
+4255," Category: feature, resource, test
+
+This change allows configuring a set number for swift replicas, which is a new feature. It also updates the configuration files and scripts, which falls under resource category. Lastly, it includes tests for the new functionality, hence the test category."
+729," Category(ies): resource, bug"
+6503," Category(ies): refactor, bug"
+6561, Category: refactor
+3564, Category(ies): resource
+4120," Category(ies): bug, refactor, resource
+
+This change is primarily a bug fix (the code is altered to correctly handle distros without the symlink from euca-describe-group to euca-describe-groups). Additionally, it involves refactoring the code to update the function that describes security groups. Lastly, it is a resource change since it affects the configuration and documents the usage of euca-describe-groups."
+6867, Category: bug
+7699," Category(ies): refactor, resource
+
+The change is modifying the'setup.py' file in 'glanceclient/openstack/common' which suggests it's refactoring the existing code to handle dependency links better. It's also updating the nonsource code resource by fixing the depend_links parsing issue, hence the'resource' category."
+7629," Category(ies): resource, bug"
+4757, Category: resource
+2093," Category(ies): refactor, bug"
+340," Category: refactor, resource
+
+Reasoning: The change's primary goal is to refactor the existing code by replacing FileHandler with WatchedFileHandler to improve log handling. Additionally, the change includes an update to the Authors file, which falls under the resource category."
+2451," Category(ies): bug, refactor, resource
+
+The change is made to fix a bug (90486"
+5894," Category: resource, refactor"
+3915," Category(ies): refactor, bug"
+4307," Category(ies): resource, bug"
+5817, Category(ies): bug
+2278, Category(ies): bug
+2332, Category: resource
+3331," Category: resource, test"
+6571, Category: resource
+6537, Category: refactor
+5192, Category: test
+7532, Category(ies): test
+903, Category(ies): bug
+3382," Category(ies): bug, feature
+
+The change is made to fix a bug related to authorization checks for simple_usage.show. This implies that there is a bug that needs to be addressed, making it a 'bug' category. Additionally, the change introduces a new feature where normal users are allowed to query their own usage info, making it a 'feature' category as well."
+4449," Category: bug, refactor, resource
+
+The change is made to fix a bug (#939"
+7187, Category: resource
+5765, Category(ies): resource
+5332," Category: test, resource, bug"
+2956," Category(ies): bug, feature
+
+The change is made to fix a bug (#890209) and also introduces a new feature by respecting the `availability_zone` parameter in nova-volume."
+5534, Category(ies): resource
+3901," Category(ies): bug, refactor
+
+The change is made to fix a bug where not all distros include a symlink from euca-describe-group to euca-describe-groups. It modifies the 'euca.sh' file to use 'euca-describe-groups' instead of 'euca-describe-group' to ensure the script works correctly across different distros. This is both a bug fix and a refactoring of the existing code."
+2397," Category(ies): resource, refactor
+
+The change is updating a configuration file to replace a tenant ID with a tenant name, which can be categorized as a resource change. The refactoring category is also applicable because the code is being modified to improve its structure and readability without changing its external behavior."
+3090, Category: resource
+7086, Category(ies): resource
+2992," Category: bug, feature, test"
+3368," Category: feature, resource"
+5928," Category: resource, test"
+711, Category(ies): bug
+7879," Category: bug, refactor"
+3863," Category: refactor, feature, performance
+
+The change is refactoring the existing iterator pattern to maintain consistency and allow send progress to be followed. It also introduces a new feature by using sendfile() for zero-copy of uploaded images, which improves performance."
+7147, Category(ies): bug
+5536," Category: feature, test, resource
+
+The change adds a new function 'auth\_str\_equal()' to the common utils, which is a feature addition. The function is intended for authentication purposes, and the code includes tests for this function, which falls under the test category. The change also includes a comment in the code about the use of the function, which is a resource update."
+3592," Category(ies): refactor, feature
+
+This change is a refactoring of the existing code to split `Resource.__call__()` into two parts, allowing for easier auditing of the API stack. It also introduces a new feature that allows for auditing of API calls, including checking execution times, etc."
+2239, Category(ies): resource
+3304," Category(ies): refactor, bug"
+1992," Category: refactor, feature
+
+The change adds a missing image\_meta parameter to rescue's spawn() calls, which suggests it is a refactoring task. Additionally, since the image\_meta parameter is being added, it can also be categorized as a feature change."
+6465," Category(ies): resource, feature, bug"
+5944," Category: refactor, bug"
+330," Category(ies): bug, feature
+
+The change is made to fix an error where endpoints were returned for a tenant instead of a token, which is a bug. Additionally, the change also implements a new feature by adding a method to list endpoints for a specific token."
+3838, Category(ies): refactor
+203, Category(ies): resource
+6961," Category(ies): bug, resource, test"
+5701, Category: resource
+1763," Category(ies): resource, test"
+7189," Category(ies): bug, refactor"
+3451," Category(ies): bug, refactor, test"
+709, Category: bug
+840," Category: merge, refactor, deprecate"
+4796," Category(ies): refactor, resource
+
+The change is modifying the code to use the project name instead of the tenant ID when allocating an IP. This seems to be a refactoring change to improve the user experience or readability by using a more meaningful identifier (project name). The change also updates the log message and success message in the user interface, which falls under the resource category."
+5743," Category(ies): bug, test"
+6383," Category(ies): resource, test"
+6880, Category: resource
+4667," Category: refactor, bug"
+127," Category(ies): feature, refactor, resource, test"
+5468, Category(ies): resource
+3004, Category: refactor
+7464," Category(ies): feature, test, bug
+
+The change adds validations for the 'name' field for roles, users, and tenants, which is a new feature. It also includes test cases for the new validations and is marked as fixing a bug (LP Bug #997725)."
+1059, Category(ies): resource
+7217," Category(ies): resource, refactor"
+5308," Category(ies): refactor, resource"
+7240," Category(ies): resource, feature"
+621," Category(ies): refactor, feature"
+3547," Category(ies): feature, test"
+7779," Category: refactor, resource"
+3020, Category(ies): refactor
+1660," Category(ies): feature, refactor, test
+
+The change is adding a bulk create function for fixed IPs, which is a new feature. It also refactors the existing fixed_ip_create function to accumulate IP information and passes it to the new bulk create function. The change significantly reduces the time it takes to run certain tests, indicating that the refactoring is an improvement in the testing process."
